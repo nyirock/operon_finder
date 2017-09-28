@@ -1,0 +1,596 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  globins4.hmm
+# target sequence database:        human.protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       globins4  [M=149]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      1e-63  216.6   0.0    1.1e-63  216.5   0.0    1.0  1  NP_000509.1     hemoglobin subunit beta [Homo sapiens]
+    2.2e-60  205.8   0.0    2.4e-60  205.7   0.0    1.0  1  NP_000510.1     hemoglobin subunit delta [Homo sapiens]
+    7.2e-60  204.2   1.3      8e-60  204.0   1.3    1.0  1  NP_000508.1     hemoglobin subunit alpha [Homo sapiens]
+    7.2e-60  204.2   1.3      8e-60  204.0   1.3    1.0  1  NP_000549.1     hemoglobin subunit alpha [Homo sapiens]
+    1.9e-59  202.8   0.3    2.1e-59  202.6   0.3    1.0  1  NP_005359.1     myoglobin [Homo sapiens]
+    1.9e-59  202.8   0.3    2.1e-59  202.6   0.3    1.0  1  NP_976311.1     myoglobin [Homo sapiens]
+    1.9e-59  202.8   0.3    2.1e-59  202.6   0.3    1.0  1  NP_976312.1     myoglobin [Homo sapiens]
+    1.9e-59  202.8   0.3    2.1e-59  202.6   0.3    1.0  1  XP_005261662.1  PREDICTED: myoglobin isoform X1 [Homo sapiens
+    1.5e-54  186.9   0.0    1.7e-54  186.7   0.0    1.0  1  NP_000175.1     hemoglobin subunit gamma-2 [Homo sapiens]
+    4.3e-54  185.4   0.4    4.8e-54  185.3   0.4    1.0  1  NP_005321.1     hemoglobin subunit epsilon [Homo sapiens]
+    6.5e-54  184.8   0.1    7.2e-54  184.7   0.1    1.0  1  NP_000550.2     hemoglobin subunit gamma-1 [Homo sapiens]
+    1.5e-47  164.2   0.2    1.7e-47  164.0   0.2    1.0  1  NP_005323.1     hemoglobin subunit zeta [Homo sapiens]
+    1.5e-47  164.2   0.2    1.7e-47  164.0   0.2    1.0  1  XP_005255345.1  PREDICTED: hemoglobin subunit zeta isoform X2
+      2e-47  163.8   0.2    2.3e-47  163.6   0.2    1.0  1  XP_005255344.1  PREDICTED: hemoglobin subunit zeta isoform X1
+    5.4e-40  139.7   0.1    5.9e-40  139.5   0.1    1.0  1  NP_005322.1     hemoglobin subunit theta-1 [Homo sapiens]
+    5.6e-39  136.4   0.2    6.5e-39  136.2   0.2    1.0  1  NP_599030.1     cytoglobin [Homo sapiens]
+    6.8e-39  136.1   0.2    7.9e-39  135.9   0.2    1.0  1  XP_005257062.1  PREDICTED: cytoglobin isoform X1 [Homo sapien
+    1.6e-34  121.9   0.3    1.8e-34  121.8   0.3    1.0  1  NP_001003938.1  hemoglobin subunit mu [Homo sapiens]
+    3.5e-19   72.1   0.0    3.9e-19   72.0   0.0    1.0  1  XP_016879605.1  PREDICTED: cytoglobin isoform X2 [Homo sapien
+    9.4e-08   35.0   0.0    1.1e-07   34.8   0.0    1.0  1  NP_067080.1     neuroglobin [Homo sapiens]
+  ------ inclusion threshold ------
+       0.17   14.7   0.0       0.96   12.3   0.0    2.3  1  XP_016871305.1  PREDICTED: dedicator of cytokinesis protein 1
+       0.38   13.6   0.0         41    7.0   0.0    2.6  2  XP_011534436.1  PREDICTED: androglobin isoform X11 [Homo sapi
+       0.45   13.4   0.0          2   11.2   0.0    2.1  1  XP_011537726.1  PREDICTED: dedicator of cytokinesis protein 1
+       0.45   13.4   0.0          2   11.2   0.0    2.1  1  NP_001277152.1  dedicator of cytokinesis protein 1 isoform 1 
+       0.45   13.4   0.0          2   11.3   0.0    2.1  1  NP_001371.1     dedicator of cytokinesis protein 1 isoform 2 
+       0.46   13.3   0.0        2.1   11.2   0.0    2.1  1  XP_011537724.1  PREDICTED: dedicator of cytokinesis protein 1
+       0.46   13.3   0.0          2   11.2   0.0    2.1  1  XP_016871302.1  PREDICTED: dedicator of cytokinesis protein 1
+       0.79   12.6   0.8        1.2   12.0   0.1    1.6  1  XP_005274636.1  PREDICTED: sex comb on midleg-like protein 1 
+       0.79   12.6   0.8        1.2   12.0   0.1    1.6  1  XP_006724572.1  PREDICTED: sex comb on midleg-like protein 1 
+        0.8   12.6   0.8        1.2   12.0   0.1    1.6  1  NP_006737.2     sex comb on midleg-like protein 1 isoform b [
+        0.8   12.6   0.8        1.2   12.0   0.1    1.6  1  XP_016885212.1  PREDICTED: sex comb on midleg-like protein 1 
+       0.88   12.4   0.8        1.3   11.8   0.1    1.6  1  NP_001032629.1  sex comb on midleg-like protein 1 isoform a [
+       0.88   12.4   0.8        1.3   11.8   0.1    1.6  1  XP_006724571.1  PREDICTED: sex comb on midleg-like protein 1 
+        0.9   12.4   0.8        1.4   11.8   0.1    1.6  1  XP_005274635.1  PREDICTED: sex comb on midleg-like protein 1 
+        0.9   12.4   0.8        1.4   11.8   0.1    1.6  1  XP_011543866.1  PREDICTED: sex comb on midleg-like protein 1 
+
+
+Domain annotation for each sequence (and alignments):
+>> NP_000509.1  hemoglobin subunit beta [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  216.5   0.0   3.5e-67   1.1e-63       1     149 []       2     147 .]       2     147 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 216.5 bits;  conditional E-value: 3.5e-67
+     globins4   1 vvLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98 
+                  v+L+++ek++v+a+W+kv  +v+e+G+++L rl++++P+tq+fFe+F+dLst+d+++++++vk+Hgkkvl+A+sd+la+ld +l++++++LselH++k
+  NP_000509.1   2 VHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLD-NLKGTFATLSELHCDK 96 
+                  69****************..*************************************************************.**************** PP
+
+     globins4  99 lkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  l+vdp++f+ll++vlv+vla++++keft++vqaa++K++a va++la+kY+
+  NP_000509.1  97 LHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH 147
+                  **************************************************7 PP
+
+>> NP_000510.1  hemoglobin subunit delta [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.7   0.0   7.5e-64   2.4e-60       1     149 []       2     147 .]       2     147 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 205.7 bits;  conditional E-value: 7.5e-64
+     globins4   1 vvLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98 
+                  v+L+++ekt+v+a+W+kv  +v+ +G+++L rl++++P+tq+fFe+F+dLs +d+++++++vk+Hgkkvl+A+sd+la+ld +l++++++LselH++k
+  NP_000510.1   2 VHLTPEEKTAVNALWGKV--NVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLD-NLKGTFSQLSELHCDK 96 
+                  69****************..*************************************************************.**************** PP
+
+     globins4  99 lkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  l+vdp++f+ll++vlv+vla +++keft+++qaa++K++a va++la+kY+
+  NP_000510.1  97 LHVDPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKYH 147
+                  **************************************************7 PP
+
+>> NP_000508.1  hemoglobin subunit alpha [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  204.0   1.3   2.5e-63     8e-60       2     149 .]       2     142 .]       1     142 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 204.0 bits;  conditional E-value: 2.5e-63
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                  vLs+a+kt+vka+W+kv+a+++e+Ga++L+r+f+s+P+t+++F++F dLs     ++sa+vk Hgkkv+dAl++a+a++d +++++l++Ls+lHa+kl
+  NP_000508.1   2 VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVD-DMPNALSALSDLHAHKL 92 
+                  8*********************************************.***.....************************9.***************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp +fklls++l+++laa+lp+eft++v+a+l+K+la+v+++l+skY+
+  NP_000508.1  93 RVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR 142
+                  *************************************************7 PP
+
+>> NP_000549.1  hemoglobin subunit alpha [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  204.0   1.3   2.5e-63     8e-60       2     149 .]       2     142 .]       1     142 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 204.0 bits;  conditional E-value: 2.5e-63
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                  vLs+a+kt+vka+W+kv+a+++e+Ga++L+r+f+s+P+t+++F++F dLs     ++sa+vk Hgkkv+dAl++a+a++d +++++l++Ls+lHa+kl
+  NP_000549.1   2 VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVD-DMPNALSALSDLHAHKL 92 
+                  8*********************************************.***.....************************9.***************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp +fklls++l+++laa+lp+eft++v+a+l+K+la+v+++l+skY+
+  NP_000549.1  93 RVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR 142
+                  *************************************************7 PP
+
+>> NP_005359.1  myoglobin [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.6   0.3   6.6e-63   2.1e-59       3     149 .]       3     148 ..       1     148 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 202.6 bits;  conditional E-value: 6.6e-63
+     globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                  Ls++e++ v++vW+kvead+ ++G+++L+rlfk +P+t+e+F+kFk+L+ ede+k+s+d+kkHg +vl+Al+ +l+k ++++ea++k+L+++Ha+k+k
+  NP_005359.1   3 LSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKK-KGHHEAEIKPLAQSHATKHK 99 
+                  9****************************************************************************.99****************** PP
+
+     globins4 101 vdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +++ky++++se++++vl++++p++f+ad+q+a++K+l+l++k++as+Yk
+  NP_005359.1 100 IPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYK 148
+                  ************************************************7 PP
+
+>> NP_976311.1  myoglobin [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.6   0.3   6.6e-63   2.1e-59       3     149 .]       3     148 ..       1     148 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 202.6 bits;  conditional E-value: 6.6e-63
+     globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                  Ls++e++ v++vW+kvead+ ++G+++L+rlfk +P+t+e+F+kFk+L+ ede+k+s+d+kkHg +vl+Al+ +l+k ++++ea++k+L+++Ha+k+k
+  NP_976311.1   3 LSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKK-KGHHEAEIKPLAQSHATKHK 99 
+                  9****************************************************************************.99****************** PP
+
+     globins4 101 vdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +++ky++++se++++vl++++p++f+ad+q+a++K+l+l++k++as+Yk
+  NP_976311.1 100 IPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYK 148
+                  ************************************************7 PP
+
+>> NP_976312.1  myoglobin [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.6   0.3   6.6e-63   2.1e-59       3     149 .]       3     148 ..       1     148 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 202.6 bits;  conditional E-value: 6.6e-63
+     globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                  Ls++e++ v++vW+kvead+ ++G+++L+rlfk +P+t+e+F+kFk+L+ ede+k+s+d+kkHg +vl+Al+ +l+k ++++ea++k+L+++Ha+k+k
+  NP_976312.1   3 LSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKK-KGHHEAEIKPLAQSHATKHK 99 
+                  9****************************************************************************.99****************** PP
+
+     globins4 101 vdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +++ky++++se++++vl++++p++f+ad+q+a++K+l+l++k++as+Yk
+  NP_976312.1 100 IPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYK 148
+                  ************************************************7 PP
+
+>> XP_005261662.1  PREDICTED: myoglobin isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.6   0.3   6.6e-63   2.1e-59       3     149 .]       3     148 ..       1     148 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 202.6 bits;  conditional E-value: 6.6e-63
+        globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHak 97 
+                     Ls++e++ v++vW+kvead+ ++G+++L+rlfk +P+t+e+F+kFk+L+ ede+k+s+d+kkHg +vl+Al+ +l+k ++++ea++k+L+++Ha+
+  XP_005261662.1   3 LSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKK-KGHHEAEIKPLAQSHAT 96 
+                     9****************************************************************************.99*************** PP
+
+        globins4  98 klkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                     k+k+++ky++++se++++vl++++p++f+ad+q+a++K+l+l++k++as+Yk
+  XP_005261662.1  97 KHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYK 148
+                     ***************************************************7 PP
+
+>> NP_000175.1  hemoglobin subunit gamma-2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  186.7   0.0   5.2e-58   1.7e-54       2     149 .]       3     147 .]       2     147 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 186.7 bits;  conditional E-value: 5.2e-58
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                  + +e++k +++++W+kv  +ve+ G++ L rl++++P+tq+fF++F++Ls + +++++++vk+Hgkkvl+ l+da+++ld +l++++++LselH++kl
+  NP_000175.1   3 HFTEEDKATITSLWGKV--NVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLD-DLKGTFAQLSELHCDKL 97 
+                  6799*************..************************************************************9.***************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp++fkll++vlv+vla +++keft++vqa+ +K++  va +l+s+Y+
+  NP_000175.1  98 HVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH 147
+                  *************************************************7 PP
+
+>> NP_005321.1  hemoglobin subunit epsilon [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  185.3   0.4   1.5e-57   4.8e-54       1     149 []       2     147 .]       2     147 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 185.3 bits;  conditional E-value: 1.5e-57
+     globins4   1 vvLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98 
+                  v+ +++ek +v+++W+k+  +vee G+++L rl++++P+tq+fF++F++Ls + ++ ++++vk+Hgkkvl+ ++da++++d +l+ ++++LselH++k
+  NP_005321.1   2 VHFTAEEKAAVTSLWSKM--NVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMD-NLKPAFAKLSELHCDK 96 
+                  5789**************..*************************************************************.**************** PP
+
+     globins4  99 lkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  l+vdp++fkll++v+v +la++++keft++vqaa +Kl++ va++la+kY+
+  NP_005321.1  97 LHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH 147
+                  **************************************************7 PP
+
+>> NP_000550.2  hemoglobin subunit gamma-1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  184.7   0.1   2.2e-57   7.2e-54       2     149 .]       3     147 .]       2     147 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 184.7 bits;  conditional E-value: 2.2e-57
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                  + +e++k +++++W+kv  +ve+ G++ L rl++++P+tq+fF++F++Ls + +++++++vk+Hgkkvl+ l+da ++ld +l++++++LselH++kl
+  NP_000550.2   3 HFTEEDKATITSLWGKV--NVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDATKHLD-DLKGTFAQLSELHCDKL 97 
+                  6799*************..************************************************************9.***************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp++fkll++vlv+vla +++keft++vqa+ +K++  va +l+s+Y+
+  NP_000550.2  98 HVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH 147
+                  *************************************************7 PP
+
+>> NP_005323.1  hemoglobin subunit zeta [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.0   0.2   5.2e-51   1.7e-47       2     149 .]       2     142 .]       1     142 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 164.0 bits;  conditional E-value: 5.2e-51
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                   L++ e+t + ++Wak+ +++++ G++ L+rlf+s+P+t+++F++F dL+      +sa++++Hg kv+ A++da++++d ++ ++l++LselHa  l
+  NP_005323.1   2 SLTKTERTIIVSMWAKISTQADTIGTETLERLFLSHPQTKTYFPHF-DLH-----PGSAQLRAHGSKVVAAVGDAVKSID-DIGGALSKLSELHAYIL 92 
+                  5999******************************************.999.....9***********************9.9**************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp +fklls++l+++laar+p++fta+++aa +K+l++v+ +l++kY+
+  NP_005323.1  93 RVDPVNFKLLSHCLLVTLAARFPADFTAEAHAAWDKFLSVVSSVLTEKYR 142
+                  *************************************************7 PP
+
+>> XP_005255345.1  PREDICTED: hemoglobin subunit zeta isoform X2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.0   0.2   5.2e-51   1.7e-47       2     149 .]       2     142 .]       1     142 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 164.0 bits;  conditional E-value: 5.2e-51
+        globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHa 96 
+                      L++ e+t + ++Wak+ +++++ G++ L+rlf+s+P+t+++F++F dL+      +sa++++Hg kv+ A++da++++d ++ ++l++LselHa
+  XP_005255345.1   2 SLTKTERTIIVSMWAKISTQADTIGTETLERLFLSHPQTKTYFPHF-DLH-----PGSAQLRAHGSKVVAAVGDAVKSID-DIGGALSKLSELHA 89 
+                     5999******************************************.999.....9***********************9.9************* PP
+
+        globins4  97 kklkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                       l+vdp +fklls++l+++laar+p++fta+++aa +K+l++v+ +l++kY+
+  XP_005255345.1  90 YILRVDPVNFKLLSHCLLVTLAARFPADFTAEAHAAWDKFLSVVSSVLTEKYR 142
+                     ****************************************************7 PP
+
+>> XP_005255344.1  PREDICTED: hemoglobin subunit zeta isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.6   0.2   7.2e-51   2.3e-47       2     149 .]      14     154 .]      13     154 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 163.6 bits;  conditional E-value: 7.2e-51
+        globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHa 96 
+                      L++ e+t + ++Wak+ +++++ G++ L+rlf+s+P+t+++F++F dL+      +sa++++Hg kv+ A++da++++d ++ ++l++LselHa
+  XP_005255344.1  14 SLTKTERTIIVSMWAKISTQADTIGTETLERLFLSHPQTKTYFPHF-DLH-----PGSAQLRAHGSKVVAAVGDAVKSID-DIGGALSKLSELHA 101
+                     5999******************************************.999.....9***********************9.9************* PP
+
+        globins4  97 kklkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                       l+vdp +fklls++l+++laar+p++fta+++aa +K+l++v+ +l++kY+
+  XP_005255344.1 102 YILRVDPVNFKLLSHCLLVTLAARFPADFTAEAHAAWDKFLSVVSSVLTEKYR 154
+                     ****************************************************7 PP
+
+>> NP_005322.1  hemoglobin subunit theta-1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  139.5   0.1   1.8e-43   5.9e-40       2     149 .]       2     142 .]       1     142 [] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 139.5 bits;  conditional E-value: 1.8e-43
+     globins4   2 vLseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakkl 99 
+                   Ls++++  v+a+W k +++v+ + +++L+r f+++Pat+++F +  dLs      +s +v++Hg+kv+dAls a+ +ld +l+ +l++Ls+lHa +l
+  NP_005322.1   2 ALSAEDRALVRALWKKLGSNVGVYTTEALERTFLAFPATKTYFSHL-DLS-----PGSSQVRAHGQKVADALSLAVERLD-DLPHALSALSHLHACQL 92 
+                  69********************************************.9*9.....9***********************9.***************** PP
+
+     globins4 100 kvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +vdp  f+ll+++l+++la ++p++f+++ qa+l+K+l+ v  +l s Y+
+  NP_005322.1  93 RVDPASFQLLGHCLLVTLARHYPGDFSPALQASLDKFLSHVISALVSEYR 142
+                  ************************************************96 PP
+
+>> NP_599030.1  cytoglobin [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.2   0.2     2e-42   6.5e-39       3     149 .]      19     167 ..      17     167 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 136.2 bits;  conditional E-value: 2e-42
+     globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakl.d.ekleaklkdLselHakk 98 
+                  Lseae+++v+a+Wa+ +a+ e++G+ iLvr+f+ +P ++++F +Fk+++ + e++ s++++kH+ +v++Al+ ++ +l d +k+++ l+ + + Ha k
+  NP_599030.1  19 LSEAERKAVQAMWARLYANCEDVGVAILVRFFVNFPSAKQYFSQFKHMEDPLEMERSPQLRKHACRVMGALNTVVENLhDpDKVSSVLALVGKAHALK 116
+                  9*****************************************************************************878999************** PP
+
+     globins4  99 lkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                  +kv+p yfk+ls v+++v+a++++++f ++ q a  Kl  l+   ++++Yk
+  NP_599030.1 117 HKVEPVYFKILSGVILEVVAEEFASDFPPETQRAWAKLRGLIYSHVTAAYK 167
+                  **************************************************7 PP
+
+>> XP_005257062.1  PREDICTED: cytoglobin isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  135.9   0.2   2.4e-42   7.9e-39       3     149 .]      19     167 ..      17     167 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 135.9 bits;  conditional E-value: 2.4e-42
+        globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakl.d.ekleaklkdLselH 95 
+                     Lseae+++v+a+Wa+ +a+ e++G+ iLvr+f+ +P ++++F +Fk+++ + e++ s++++kH+ +v++Al+ ++ +l d +k+++ l+ + + H
+  XP_005257062.1  19 LSEAERKAVQAMWARLYANCEDVGVAILVRFFVNFPSAKQYFSQFKHMEDPLEMERSPQLRKHACRVMGALNTVVENLhDpDKVSSVLALVGKAH 113
+                     9*****************************************************************************878999*********** PP
+
+        globins4  96 akklkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                     a k+kv+p yfk+ls v+++v+a++++++f ++ q a  Kl  l+   ++++Yk
+  XP_005257062.1 114 ALKHKVEPVYFKILSGVILEVVAEEFASDFPPETQRAWAKLRGLIYSHVTAAYK 167
+                     ****************************************************97 PP
+
+>> NP_001003938.1  hemoglobin subunit mu [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.8   0.3   5.5e-38   1.8e-34       3     149 .]       2     141 .]       1     141 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 121.8 bits;  conditional E-value: 5.5e-38
+        globins4   3 LseaektkvkavWakveadveesGadiLvrlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHak 97 
+                     Ls++e+ ++ +vW  +  + ++ Ga+ L rlf+++P t+ +F++    s   + + + ++  Hg+++l A+++a++++d +l+a+l++L++lHa 
+  NP_001003938.1   2 LSAQERAQIAQVWDLIAGHEAQFGAELLLRLFTVYPSTKVYFPHL---S---ACQDATQLLSHGQRMLAAVGAAVQHVD-NLRAALSPLADLHAL 89 
+                     9******************************************88...4...6678999********************.*************** PP
+
+        globins4  98 klkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllaskYk 149
+                      l+vdp +f ll ++  +vla++l  eft ++qaa +K+l  va +l++kY+
+  NP_001003938.1  90 VLRVDPANFPLLIQCFHVVLASHLQDEFTVQMQAAWDKFLTGVAVVLTEKYR 141
+                     ***************************************************7 PP
+
+>> XP_016879605.1  PREDICTED: cytoglobin isoform X2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.0   0.0   1.2e-22   3.9e-19      55     149 .]       6     102 ..       1     102 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 72.0 bits;  conditional E-value: 1.2e-22
+        globins4  55 elkksadvkkHgkkvldAlsdalakl.d.ekleaklkdLselHakklkvdpkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakllask 147
+                     e++ s++++kH+ +v++Al+ ++ +l d +k+++ l+ + + Ha k+kv+p yfk+ls v+++v+a++++++f ++ q a  Kl  l+   ++++
+  XP_016879605.1   6 EMERSPQLRKHACRVMGALNTVVENLhDpDKVSSVLALVGKAHALKHKVEPVYFKILSGVILEVVAEEFASDFPPETQRAWAKLRGLIYSHVTAA 100
+                     899***********************878999*************************************************************** PP
+
+        globins4 148 Yk 149
+                     Yk
+  XP_016879605.1 101 YK 102
+                     *7 PP
+
+>> NP_067080.1  neuroglobin [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   0.0   3.5e-11   1.1e-07       8     144 ..       6     144 ..       2     148 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 3.5e-11
+     globins4   8 ktkvkavWakveadveesGadiLvrlfkstPatqefFe.kFkdLstedelkksadvkkHgkkvldAlsdalakl.d.ekleaklkdLselHakklkvd 102
+                   + +++ W  v     e+G+    rlf   P  +  F+ + ++ s +++  +s++   H +kv+  + +a+ ++ d   le  l++L  +H     v 
+  NP_067080.1   6 PELIRQSWRAVSRSPLEHGTVLFARLFALEPDLLPLFQyNCRQFSSPEDCLSSPEFLDHIRKVMLVIDAAVTNVeDlSSLEEYLASLGRKHR-AVGVK 102
+                  57899*******9**********************998457899******************************7688999**********5.689** PP
+
+     globins4 103 pkyfkllsevlvdvlaarlpkeftadvqaaleKllalvakll 144
+                     f  ++e l+ +l + l+  ft++  aa  +l   v +++
+  NP_067080.1 103 LSSFSTVGESLLYMLEKCLGPAFTPATRAAWSQLYGAVVQAM 144
+                  *******************************99988887765 PP
+
+>> XP_016871305.1  PREDICTED: dedicator of cytokinesis protein 1 isoform X6 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0    0.0003      0.96      32      98 ..     730     792 ..     720     799 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.0003
+        globins4  32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98 
+                     r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  XP_016871305.1 730 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 792
+                     78999***************8877789999********99987653....56777888877766555 PP
+
+>> XP_011534436.1  PREDICTED: androglobin isoform X11 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.15     5e+02      69      95 ..      48      76 ..      38     102 .. 0.85
+   2 ?    7.0   0.0     0.013        41      11      53 ..     195     237 ..     189     243 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.15
+        globins4 69 vldAlsdalakl.d.ekleaklkdLselH 95
+                    +++A+++++a++ d +kl+a+lkdL   H
+  XP_011534436.1 48 IMKAIGNVIANFkDkGKLSAALKDLQTAH 76
+                    899*********7579*********9999 PP
+
+  == domain 2  score: 7.0 bits;  conditional E-value: 0.013
+        globins4  11 vkavWakveadveesGadiLvrlfkstPatqefFekFkdLste 53 
+                     +++vWa  e + e++ +  L  +fks  +++e ++ ++d +t+
+  XP_011534436.1 195 LQKVWAVLEMNLEQYAVSLLRLMFKSKCKSLESYPCYQDEETK 237
+                     689********************************99987775 PP
+
+>> XP_011537726.1  PREDICTED: dedicator of cytokinesis protein 1 isoform X3 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00062         2      32      98 ..    1564    1626 ..    1558    1633 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00062
+        globins4   32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98  
+                      r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  XP_011537726.1 1564 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 1626
+                      78899***************8877789999********99987653....56777788777766555 PP
+
+>> NP_001277152.1  dedicator of cytokinesis protein 1 isoform 1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00063         2      32      98 ..    1570    1632 ..    1564    1639 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00063
+        globins4   32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98  
+                      r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  NP_001277152.1 1570 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 1632
+                      78899***************8877789999********99987653....56777788777766555 PP
+
+>> NP_001371.1  dedicator of cytokinesis protein 1 isoform 2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   0.00062         2      32      98 ..    1549    1611 ..    1543    1618 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00062
+     globins4   32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98  
+                   r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  NP_001371.1 1549 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 1611
+                   78899***************8877789999********99987653....56777788777766555 PP
+
+>> XP_011537724.1  PREDICTED: dedicator of cytokinesis protein 1 isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00063       2.1      32      98 ..    1592    1654 ..    1586    1661 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00063
+        globins4   32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98  
+                      r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  XP_011537724.1 1592 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 1654
+                      78899***************8877789999********99987653....56777788777766555 PP
+
+>> XP_016871302.1  PREDICTED: dedicator of cytokinesis protein 1 isoform X2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00063         2      32      98 ..    1571    1633 ..    1565    1640 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.00063
+        globins4   32 rlfkstPatqefFekFkdLstedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakk 98  
+                      r ++ +P+++e+ ek kdL + +    ++ ++ Hg kv +Al        e++ea +k+L e+  k+
+  XP_016871302.1 1571 RYLQEHPEAHEKIEKLKDLIAWQIPFLAEGIRIHGDKVTEALRPFH----ERMEACFKQLKEKVEKE 1633
+                      78899***************8877789999********99987653....56777788777766555 PP
+
+>> XP_005274636.1  PREDICTED: sex comb on midleg-like protein 1 isoform X4 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00037       1.2      51     100 ..      22      70 ..      18      89 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00037
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_005274636.1  22 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 70 
+                     69****************************9.99************9986 PP
+
+>> XP_006724572.1  PREDICTED: sex comb on midleg-like protein 1 isoform X4 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00037       1.2      51     100 ..      22      70 ..      18      89 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00037
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_006724572.1  22 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 70 
+                     69****************************9.99************9986 PP
+
+>> NP_006737.2  sex comb on midleg-like protein 1 isoform b [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00038       1.2      51     100 ..      23      71 ..      19      90 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00038
+     globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                  +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  NP_006737.2  23 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 71 
+                  69****************************9.99************9986 PP
+
+>> XP_016885212.1  PREDICTED: sex comb on midleg-like protein 1 isoform X3 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   0.00038       1.2      51     100 ..      23      71 ..      19      90 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00038
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_016885212.1  23 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 71 
+                     69****************************9.99************9986 PP
+
+>> NP_001032629.1  sex comb on midleg-like protein 1 isoform a [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   0.00041       1.3      51     100 ..      50      98 ..      44     117 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00041
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  NP_001032629.1  50 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 98 
+                     79****************************9.99************9985 PP
+
+>> XP_006724571.1  PREDICTED: sex comb on midleg-like protein 1 isoform X2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   0.00041       1.3      51     100 ..      50      98 ..      44     117 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00041
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_006724571.1  50 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 98 
+                     79****************************9.99************9985 PP
+
+>> XP_005274635.1  PREDICTED: sex comb on midleg-like protein 1 isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   0.00042       1.4      51     100 ..      51      99 ..      46     118 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00042
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_005274635.1  51 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 99 
+                     79****************************9.99************9985 PP
+
+>> XP_011543866.1  PREDICTED: sex comb on midleg-like protein 1 isoform X1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   0.00042       1.4      51     100 ..      51      99 ..      46     118 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00042
+        globins4  51 stedelkksadvkkHgkkvldAlsdalakldekleaklkdLselHakklk 100
+                     +te++lk  +dv  H + + dAl++  +k+d  ++ k++++   Ha++l 
+  XP_011543866.1  51 NTEEQLKTVDDVLIHCQVIYDALQNLDKKID-VIRRKVSKIQRFHARSLW 99 
+                     79****************************9.99************9985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (149 nodes)
+Target sequences:                       113361  (75506044 residues searched)
+Passed MSV filter:                      4463  (0.0393698); expected 2267.2 (0.02)
+Passed bias filter:                     3366  (0.0296928); expected 2267.2 (0.02)
+Passed Vit filter:                       280  (0.00246999); expected 113.4 (0.001)
+Passed Fwd filter:                        35  (0.000308748); expected 1.1 (1e-05)
+Initial search space (Z):             113361  [actual number of targets]
+Domain search space  (domZ):              35  [number of targets reported over threshold]
+# CPU time: 0.99u 0.02s 00:00:01.01 Elapsed: 00:00:00.31
+# Mc/sec: 36291.61
+//
+[ok]

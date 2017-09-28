@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AMO.hmm
+# Target file:     2501025493.genes.faa
+# Option settings: hmmsearch --tblout amo_human.tab AMO.hmm 2501025493.genes.faa 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/bioinf_and_func_gen_book
+# Date:            Wed Sep 27 19:36:04 2017
+# [ok]

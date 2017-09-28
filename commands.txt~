@@ -1,0 +1,95 @@
+hmmbuild globins4.hmm .globins4.sto
+
+The hmmbuild function creates an HMM (called globins4.hmm) using as input a
+set of four multiply aligned globin proteins. We can search this HMM against a database.
+We first find a suitable database, in this case human RefSeq proteins in the FASTA format.
+
+
+to get to
+wget ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/mRNA_Prot/human.protein.faa.gz
+No such file ‘human.protein.faa.gz’.
+
+So we used book's homepage:http://www.bioinfbook.org/php/C5E3b
+and followed the ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/mRNA_Prot/ link as
+wget ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/mRNA_Prot/human.*.protein.faa.gz
+which worked, and got us a list of files
+
+book says 
+gunzip human.protein.faa.gz >> gunzip human.*.protein*
+
+$ wc -l human.protein.faa >> it is  1113167 total in 39 files (3x more than in the book)
+302761 human.protein.faa
+
+cat human.*.faa > human.protein.faa
+wc -l human.protein.faa 
+1113167 human.protein.faa
+
+hmmsearch globins4.hmm human.protein.faa > globins4.out
+
+
+
+regular run
+hmmsearch globins4.hmm human.protein.faa > globins4.out
+
+and tab-delimited output
+hmmsearch --tblout globins4.tab  globins4.hmm human.protein.faa
+
+let's compare it to blast
+
+
+hmmsearch --tblout amo_human.tab AMO.hmm human.protein.faa
+
+hmmsearch --tblout amo_mg1.tab AMO.hmm 76969.assembled.faa
+got results, but previous didn't work, prob because of database size/e-value thing
+
+let's try again methyloferula with lower evalue
+hmmsearch --tblout -E 100 amo_bact.tab AMO.hmm 2516653063.genes.faa
+
+methyloferula doesn't have pmo, let's try m.rosea
+2517287028.genes.faa
+hmmsearch --tblout amo_mros.tab AMO.hmm 2517287028.genes.faa
+!!! worked fine on m.rosea
+
+let't try just 
+>2517402629 A3OODRAFT_1496 methane monooxygenase/ammonia monooxygenase, subunit A [Methylocystis rosea SV97T]
+MSQSKSGGAVGPFNSVAEAAGCVQTVDWMLLVLLFFAVLGGYHVHFMLTA
+GDWDFWVDWKDRRMWPTVVPILGVTFCAAAQAFWWVNFRLPFGAVFAALG
+LLIGEWINRYVNFWGWTYFPISLVFPSALIVPAIWLDVILLLSGSYVITA
+IVGSLGWGLLFYPNNWPAIAAFHQATEQHGQLMTLADLIGFHFVRTSMPE
+YIRMVERGTLRTFGKDVVPVAAFFSGFVSMMVYFLWWFMGRWYSTTKIID
+TI
+
+alone to check the E-values (file mros.pmo.faa)
+hmmsearch --tblout amo_mros.pmo.tab AMO.hmm mros.pmo.faa
+e=1.6e-124(full sequence)
+
+hmmsearch -Z 1 --tblout amo_mros.z1.pmo.tab AMO.hmm mros.pmo.faa
+(same)
+
+hmmsearch --tblout amo_mros.tab AMO.hmm 2517287028.genes.faa
+e=6.2e-121
+
+cat 2517287028.genes.faa | wc -l
+32382 (# of proteins)
+hmmsearch -Z 32382 --tblout amo_mros.z32382.tab AMO.hmm 2517287028.genes.faa
+e=5.2e-120
+
+searching for pmoC
+hmmsearch --tblout amoc_mros.tab AmoC.hmm 2517287028.genes.faa
+(first is good)
+2517402628           -          AmoC                 PF04896.11  7.6e-119  393.3  14.7    9e-119  393.
+
+then concating the models and usign hmmscan
+cat AMO.hmm AmoC.hmm > amoCA
+
+hmmpress amoCA
+hmmscan --tblout amoca_hmmscan_mros.tab  amoCA 2517287028.genes.faa
+worked nice, e-values bit lower than for hmmsearch
+
+hmmscan -Z 32382 --tblout amoca_hmmscan_mros.z32382.tab  amoCA 2517287028.genes.faa
+-Z made e-values even higher(as before, for hmmsearch)
+
+let's try cab models
+
+
+

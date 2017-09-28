@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2517402629           -          AMO                  PF02461.15  1.6e-124  400.4  24.0  1.8e-124  400.3  24.0   1.0   1   0   0   1   1   1   1 A3OODRAFT_1496 methane monooxygenase/ammonia monooxygenase, subunit A [Methylocystis rosea SV97T]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      AMO.hmm
+# Target file:     mros.pmo.faa
+# Option settings: hmmsearch --tblout amo_mros.z1.pmo.tab -Z 1 AMO.hmm mros.pmo.faa 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/bioinf_and_func_gen_book
+# Date:            Wed Sep 27 19:56:11 2017
+# [ok]

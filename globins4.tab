@@ -1,0 +1,48 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NP_000509.1          -          globins4             -              1e-63  216.6   0.0   1.1e-63  216.5   0.0   1.0   1   0   0   1   1   1   1 hemoglobin subunit beta [Homo sapiens]
+NP_000510.1          -          globins4             -            2.2e-60  205.8   0.0   2.4e-60  205.7   0.0   1.0   1   0   0   1   1   1   1 hemoglobin subunit delta [Homo sapiens]
+NP_000508.1          -          globins4             -            7.2e-60  204.2   1.3     8e-60  204.0   1.3   1.0   1   0   0   1   1   1   1 hemoglobin subunit alpha [Homo sapiens]
+NP_000549.1          -          globins4             -            7.2e-60  204.2   1.3     8e-60  204.0   1.3   1.0   1   0   0   1   1   1   1 hemoglobin subunit alpha [Homo sapiens]
+NP_005359.1          -          globins4             -            1.9e-59  202.8   0.3   2.1e-59  202.6   0.3   1.0   1   0   0   1   1   1   1 myoglobin [Homo sapiens]
+NP_976311.1          -          globins4             -            1.9e-59  202.8   0.3   2.1e-59  202.6   0.3   1.0   1   0   0   1   1   1   1 myoglobin [Homo sapiens]
+NP_976312.1          -          globins4             -            1.9e-59  202.8   0.3   2.1e-59  202.6   0.3   1.0   1   0   0   1   1   1   1 myoglobin [Homo sapiens]
+XP_005261662.1       -          globins4             -            1.9e-59  202.8   0.3   2.1e-59  202.6   0.3   1.0   1   0   0   1   1   1   1 PREDICTED: myoglobin isoform X1 [Homo sapiens]
+NP_000175.1          -          globins4             -            1.5e-54  186.9   0.0   1.7e-54  186.7   0.0   1.0   1   0   0   1   1   1   1 hemoglobin subunit gamma-2 [Homo sapiens]
+NP_005321.1          -          globins4             -            4.3e-54  185.4   0.4   4.8e-54  185.3   0.4   1.0   1   0   0   1   1   1   1 hemoglobin subunit epsilon [Homo sapiens]
+NP_000550.2          -          globins4             -            6.5e-54  184.8   0.1   7.2e-54  184.7   0.1   1.0   1   0   0   1   1   1   1 hemoglobin subunit gamma-1 [Homo sapiens]
+NP_005323.1          -          globins4             -            1.5e-47  164.2   0.2   1.7e-47  164.0   0.2   1.0   1   0   0   1   1   1   1 hemoglobin subunit zeta [Homo sapiens]
+XP_005255345.1       -          globins4             -            1.5e-47  164.2   0.2   1.7e-47  164.0   0.2   1.0   1   0   0   1   1   1   1 PREDICTED: hemoglobin subunit zeta isoform X2 [Homo sapiens]
+XP_005255344.1       -          globins4             -              2e-47  163.8   0.2   2.3e-47  163.6   0.2   1.0   1   0   0   1   1   1   1 PREDICTED: hemoglobin subunit zeta isoform X1 [Homo sapiens]
+NP_005322.1          -          globins4             -            5.4e-40  139.7   0.1   5.9e-40  139.5   0.1   1.0   1   0   0   1   1   1   1 hemoglobin subunit theta-1 [Homo sapiens]
+NP_599030.1          -          globins4             -            5.6e-39  136.4   0.2   6.5e-39  136.2   0.2   1.0   1   0   0   1   1   1   1 cytoglobin [Homo sapiens]
+XP_005257062.1       -          globins4             -            6.8e-39  136.1   0.2   7.9e-39  135.9   0.2   1.0   1   0   0   1   1   1   1 PREDICTED: cytoglobin isoform X1 [Homo sapiens]
+NP_001003938.1       -          globins4             -            1.6e-34  121.9   0.3   1.8e-34  121.8   0.3   1.0   1   0   0   1   1   1   1 hemoglobin subunit mu [Homo sapiens]
+XP_016879605.1       -          globins4             -            3.5e-19   72.1   0.0   3.9e-19   72.0   0.0   1.0   1   0   0   1   1   1   1 PREDICTED: cytoglobin isoform X2 [Homo sapiens]
+NP_067080.1          -          globins4             -            9.4e-08   35.0   0.0   1.1e-07   34.8   0.0   1.0   1   0   0   1   1   1   1 neuroglobin [Homo sapiens]
+XP_016871305.1       -          globins4             -               0.17   14.7   0.0      0.96   12.3   0.0   2.3   3   0   0   3   3   1   0 PREDICTED: dedicator of cytokinesis protein 1 isoform X6 [Homo sapiens]
+XP_011534436.1       -          globins4             -               0.38   13.6   0.0        41    7.0   0.0   2.6   2   0   0   2   2   2   0 PREDICTED: androglobin isoform X11 [Homo sapiens]
+XP_011537726.1       -          globins4             -               0.45   13.4   0.0         2   11.2   0.0   2.1   1   0   0   1   1   1   0 PREDICTED: dedicator of cytokinesis protein 1 isoform X3 [Homo sapiens]
+NP_001277152.1       -          globins4             -               0.45   13.4   0.0         2   11.2   0.0   2.1   1   0   0   1   1   1   0 dedicator of cytokinesis protein 1 isoform 1 [Homo sapiens]
+NP_001371.1          -          globins4             -               0.45   13.4   0.0         2   11.3   0.0   2.1   1   0   0   1   1   1   0 dedicator of cytokinesis protein 1 isoform 2 [Homo sapiens]
+XP_011537724.1       -          globins4             -               0.46   13.3   0.0       2.1   11.2   0.0   2.1   1   0   0   1   1   1   0 PREDICTED: dedicator of cytokinesis protein 1 isoform X1 [Homo sapiens]
+XP_016871302.1       -          globins4             -               0.46   13.3   0.0         2   11.2   0.0   2.1   1   0   0   1   1   1   0 PREDICTED: dedicator of cytokinesis protein 1 isoform X2 [Homo sapiens]
+XP_005274636.1       -          globins4             -               0.79   12.6   0.8       1.2   12.0   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X4 [Homo sapiens]
+XP_006724572.1       -          globins4             -               0.79   12.6   0.8       1.2   12.0   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X4 [Homo sapiens]
+NP_006737.2          -          globins4             -                0.8   12.6   0.8       1.2   12.0   0.1   1.6   2   0   0   2   2   1   0 sex comb on midleg-like protein 1 isoform b [Homo sapiens]
+XP_016885212.1       -          globins4             -                0.8   12.6   0.8       1.2   12.0   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X3 [Homo sapiens]
+NP_001032629.1       -          globins4             -               0.88   12.4   0.8       1.3   11.8   0.1   1.6   2   0   0   2   2   1   0 sex comb on midleg-like protein 1 isoform a [Homo sapiens]
+XP_006724571.1       -          globins4             -               0.88   12.4   0.8       1.3   11.8   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X2 [Homo sapiens]
+XP_005274635.1       -          globins4             -                0.9   12.4   0.8       1.4   11.8   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X1 [Homo sapiens]
+XP_011543866.1       -          globins4             -                0.9   12.4   0.8       1.4   11.8   0.1   1.6   2   0   0   2   2   1   0 PREDICTED: sex comb on midleg-like protein 1 isoform X1 [Homo sapiens]
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      globins4.hmm
+# Target file:     human.protein.faa
+# Option settings: hmmsearch --tblout globins4.tab globins4.hmm human.protein.faa 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/bioinf_and_func_gen_book
+# Date:            Wed Sep 27 19:01:49 2017
+# [ok]

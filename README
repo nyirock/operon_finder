@@ -1,0 +1,123 @@
+#############################################################
+README for ftp://ftp.ncbi.nih.gov/refseq/{species-specific}
+
+Last updated: September 18, 2017
+#############################################################
+_________________________________________________________________________
+       National Center for Biotechnology Information (NCBI)
+             National Library of Medicine
+             National Institutes of Health
+             8600 Rockville Pike
+             Bethesda, MD 20894, USA
+             tel: (301) 496-2475
+             fax: (301) 480-9241
+             e-mail: info@ncbi.nlm.nih.gov            
+_________________________________________________________________________
+
+=========================================================================
+UPDATES TO THIS FTP SITE AND README:
+
+March 10, 2008
+      Added documentation for H_sapiens/RefSeqGene/
+      Minor formatting modifications
+
+November 17, 2014
+      Documented file name format change 
+      Files include incremental file number information following size-
+      based split.
+      Additional minor formatting modifications
+
+November 25, 2014
+      Availability of file list for species-specific mRNA_Prot directories
+
+September 18, 2017
+      Changed weekly update day from Monday to Tuesday
+=========================================================================
+
+==============
+ABOUT:
+==============
+The species-specific RefSeq directories provide a cumulative 
+set of records for transcripts and proteins for those species. 
+
+In representing the complete cumulative set of transcripts and proteins, 
+the sequence files include all RefSeq accessions available for the organism; 
+note that model XM_, XR_, and XP_ accessions are included in addition to 
+the known RefSeq complement with NM_, NR_, and NP_ accessions.  
+
+These directories are updated on a weekly basis; the update is typically
+installed on Tuesdays:
+ftp://ftp.ncbi.nlm.nih.gov/refseq/B_taurus/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/D_rerio/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/M_musculus/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/R_norvegicus/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/S_scrofa/
+ftp://ftp.ncbi.nlm.nih.gov/refseq/X_tropicalis/
+
+==========================
+SUB-DIRECTORIES:
+==========================
+
+{SPECIES_ABBREV}: a link to related FTP area where the genome, genome annotation,
+	          and genome assembly sequence reports are provided.
+
+mRNA_Prot directory
+   Contents: organisms-specific RefSeq transcript and protein data
+
+     {org-name}.files.installed: 
+         reports the md5checksum and files included in the directory
+         For example: /refseq/H_sapiens/mRNA_Prot/human.files.installed
+
+   File Name Conventions:
+	File name formats are as follows:
+ 	     common_name.#.molecule_type.format_type
+        Multiple files may be provided for any given molecule and format type and file 
+	names include a numerical increment.  Files with the same numerical increment
+	are related by content. 
+
+	For example, the files provided for human are named as:
+ 	      human.#.rna.fna.gz --fasta report for transcript records
+ 	      human.#.protein.faa.gz --fasta report for protein records
+ 	      human.#.rna.gbff.gz  --flatfile report for transcript records
+ 	      human.#.protein.gpff.gz --flatfile report for protein records
+
+RefSeqGene directory:   
+   genomic gene-region sequence data that is provided to support the RefSeqGene project 
+   and Clinical Testing labs. Genomic records in scope for reporting to this FTP 
+   directory can be identified by the presence of the keyword 'RefSeqGene'.
+	     
+   Available in: H_sapiens directory
+   See also:  http://www.ncbi.nlm.nih.gov/refseq/RSG/ 
+   Files provided:
+	 gene_RefSeqGene -- a gene-to-accession mapping file 
+		            tab delimited columns are 
+		            tax_id GeneID symbol NG_accession.version	        
+	 LRG_RefSeqGene  -- a LRG to RefSeqGene mapping file
+		            tab delimited columns are
+		            GeneID  symbol  LRG_ID RefSeqGene accession.version
+	 RefSeqGene#.genomic.molecule_type.format_type --sequence reports; see above
+	 RefSeqGene_standards -- reports genomic and transcript reference standards
+				        tab delimited columns are
+					GeneID   symbol  NG or NM accession.version
+                                        # Note NG = genomic; NM = transcript 
+	README_SUBMIT
+ 	   SubmittingVariationHelp.pdf
+	   submission_template.xls			
+
+==========================
+Disclaimer:
+==========================
+The United States Government makes no representations or warranties
+regarding the content or accuracy of the information.  The United States
+Government also makes no representations or warranties of merchantability
+or fitness for a particular purpose or that the use of the sequences will
+not infringe any patent, copyright, trademark, or other rights.  The
+United States Government accepts no responsibility for any consequence
+of the receipt or use of the information.
+
+For additional information about RefSeq releases, please contact
+NCBI by e-mail at info@ncbi.nlm.nih.gov or by phone at (301) 496-2475.
+
+
+

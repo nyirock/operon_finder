@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 2517401456           -           3.7e-120  386.8  15.8  4.8e-120  386.4  15.8   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 2517402628           -           3.9e-122  393.3  14.7  4.6e-122  393.0  14.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AMO                  PF02461.15 2517402629           -           3.2e-124  400.4  24.0  3.6e-124  400.3  24.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+AmoC                 PF04896.11 2517403201           -           3.9e-122  393.3  14.7  4.6e-122  393.0  14.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AMO                  PF02461.15 2517403997           -           3.2e-124  400.4  24.0  3.6e-124  400.3  24.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+AmoC                 PF04896.11 2517403998           -           3.9e-122  393.3  14.7  4.6e-122  393.0  14.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 2517404225           -           3.7e-111  357.3  11.5  4.4e-111  357.1  11.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 2517404670           -            1.1e-30   93.8   0.0   1.5e-30   93.3   0.0   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 2517404865           -            2.8e-93  298.8  17.7   3.4e-93  298.5  17.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AMO                  PF02461.15 2517404867           -           4.3e-114  367.3  13.8  5.1e-114  367.0  13.8   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      2517287028.genes.faa
+# Target file:     amoCA
+# Option settings: hmmscan --tblout amoca_hmmscan_mros.tab amoCA 2517287028.genes.faa 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/bioinf_and_func_gen_book
+# Date:            Wed Sep 27 20:23:18 2017
+# [ok]
