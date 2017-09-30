@@ -97,3 +97,8 @@ hmmscan --tblout amocab_hmmscan_mros.tab  amoCAB 2517287028.genes.faa > /dev/nul
 
 m1 to cab models
 hmmscan --tblout amoCAB_mg1.tab amoCAB 76969.assembled.faa > /dev/null
+
+trying GNU parallel and hmmer
+parallel -j $1 blastall "-p blastn -d nt/nt -i "{}" -o "{.}".xml -e 1e-10 -m 7 -K 100 -b 200" ::: *.fa
+
+parallel -j 8 hmmscan --cpu 1 --tblout {.}.tab ../amoCAB ::: *.fasta
