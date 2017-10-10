@@ -91,5 +91,9 @@ hmmscan -Z 32382 --tblout amoca_hmmscan_mros.z32382.tab  amoCA 2517287028.genes.
 
 let's try cab models
 
+cat AMO.hmm AmoC.hmm AmoB.hmm > amoCAB
+hmmpress amoCAB
+hmmscan --tblout amocab_hmmscan_mros.tab  amoCAB 2517287028.genes.faa > /dev/null
 
-
+m1 to cab models
+hmmscan --tblout amoCAB_mg1.tab amoCAB 76969.assembled.faa > /dev/null

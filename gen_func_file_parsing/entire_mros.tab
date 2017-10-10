@@ -22,5 +22,5 @@ AMO                  PF02461.15 2517404867           -           6.5e-114  367.3
 # Target file:     ../amoCAB
 # Option settings: hmmscan -o /dev/null --tblout entire_mros.tab --cpu 8 ../amoCAB ../2517287028.genes.faa 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Sat Sep 30 00:33:12 2017
+# Date:            Thu Oct  5 20:18:14 2017
 # [ok]

@@ -253,7 +253,8 @@ def operonParser(op_lst, input_file, op_type=False, full_operons=False):
 def main(argv):
     
     #default constants
-    global input_file, model, max_distance, min_operon_size
+    input_file=''
+    global model, max_distance, min_operon_size
     try:                                
         opts, args = getopt.getopt(argv, "i:m:h", ["input=","model=", "help"])
     except getopt.GetoptError:          

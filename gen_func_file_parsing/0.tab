@@ -9,11 +9,11 @@ AmoC                 PF04896.11 Ga0073928_1000354625 -             0.0018    5.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpoU1s5U
+# Query file:      /tmp/tmpKTQs2B
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpoU1s5U 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpKTQs2B 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -32,27 +32,11 @@ AMO                  PF02461.15 Ga0073928_100026867  -            3.3e-05   11.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpsPkQSv
+# Query file:      /tmp/tmpYiCF3t
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpsPkQSv 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpYiCF3t 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_1000073153 -            3.6e-07   17.3   0.8   3.6e-07   17.3   0.8   2.4   2   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_1000110012 -              0.015    2.2  15.5   0.00011    9.2   4.5   2.8   3   1   0   3   3   3   0 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_1000113340 -              7e-06   13.1   6.3   6.5e-05   10.0   6.3   2.2   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpr_DwRM
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpr_DwRM 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -65,11 +49,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_100047775  -            1.1e-05   12.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp7RNuMq
+# Query file:      /tmp/tmpA56cCz
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp7RNuMq 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpA56cCz 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -84,25 +68,27 @@ AmoC                 PF04896.11 Ga0073928_1000062722 -            1.5e-06   15.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpYnJcyC
+# Query file:      /tmp/tmpOVwCy7
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpYnJcyC 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpOVwCy7 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_1000165619 -            1.4e-06   15.4   0.4   1.4e-06   15.4   0.4   2.5   2   0   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_1000073153 -            3.6e-07   17.3   0.8   3.6e-07   17.3   0.8   2.4   2   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_1000110012 -              0.015    2.2  15.5   0.00011    9.2   4.5   2.8   3   1   0   3   3   3   0 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_1000113340 -              7e-06   13.1   6.3   6.5e-05   10.0   6.3   2.2   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpFhMX1R
+# Query file:      /tmp/tmpQdahzS
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpFhMX1R 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQdahzS 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -112,11 +98,25 @@ Monooxygenase_B      PF04744.11 Ga0073928_1000028111 -             0.0021    4.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpkxw2Hu
+# Query file:      /tmp/tmpC0ZFhU
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpkxw2Hu 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpC0ZFhU 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:33 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_1000165619 -            1.4e-06   15.4   0.4   1.4e-06   15.4   0.4   2.5   2   0   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpctLOH0
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpctLOH0 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:33 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -126,11 +126,26 @@ Monooxygenase_B      PF04744.11 Ga0073928_1000008053 -            1.3e-05   11.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp3Hj9k0
+# Query file:      /tmp/tmpqYx2lL
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp3Hj9k0 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpqYx2lL 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:22:55 2017
+# Date:            Sat Oct  7 22:41:34 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_100152198  -            1.6e-05   11.5   0.3   2.6e-05   10.8   0.2   1.3   1   1   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_100172658  -            1.4e-05   12.7   0.0     2e-05   12.2   0.0   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpxkGhS4
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpxkGhS4 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:46 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -142,26 +157,11 @@ AmoC                 PF04896.11 Ga0073928_100077717  -            1.3e-05   12.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpS3t_hy
+# Query file:      /tmp/tmp2AApcB
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpS3t_hy 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp2AApcB 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:07 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_100152198  -            1.6e-05   11.5   0.3   2.6e-05   10.8   0.2   1.3   1   1   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_100172658  -            1.4e-05   12.7   0.0     2e-05   12.2   0.0   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpxTlTOL
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpxTlTOL 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:07 2017
+# Date:            Sat Oct  7 22:41:46 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -177,11 +177,25 @@ AMO                  PF02461.15 Ga0073928_100117764  -              3e-07   18.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpFmtr7T
+# Query file:      /tmp/tmpGyUCri
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpFmtr7T 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpGyUCri 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:07 2017
+# Date:            Sat Oct  7 22:41:46 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_100280502  -             0.0057    3.6  13.3   0.00021    8.3   5.6   2.3   2   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmplvkeg6
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmplvkeg6 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:46 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -192,11 +206,11 @@ AMO                  PF02461.15 Ga0073928_1000633814 -            2.7e-09   24.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpLsQimy
+# Query file:      /tmp/tmpSn4l3a
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpLsQimy 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpSn4l3a 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:07 2017
+# Date:            Sat Oct  7 22:41:47 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -207,25 +221,11 @@ AmoC                 PF04896.11 Ga0073928_100147361  -            2.3e-06   14.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp_kJNVG
+# Query file:      /tmp/tmpkm7EiT
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp_kJNVG 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpkm7EiT 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:07 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_100280502  -             0.0057    3.6  13.3   0.00021    8.3   5.6   2.3   2   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpQwOONR
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQwOONR 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:08 2017
+# Date:            Sat Oct  7 22:41:47 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -236,11 +236,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_100257841  -             0.0093    2.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp4dBrhZ
+# Query file:      /tmp/tmpLrGfbL
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp4dBrhZ 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpLrGfbL 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:08 2017
+# Date:            Sat Oct  7 22:41:47 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -250,43 +250,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_100213575  -            9.9e-06   12.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpiPL3qS
+# Query file:      /tmp/tmptIkKDc
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpiPL3qS 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptIkKDc 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:08 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_100639861  -            9.1e-07   15.6   0.7   1.4e-06   15.0   0.7   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_100681562  -            1.6e-06   14.8   0.0   2.6e-06   14.1   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpDhQm5x
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpDhQm5x 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:20 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_100794841  -              9e-06   13.3   0.1     1e-05   13.1   0.1   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_100839133  -            8.2e-06   12.5   0.0   1.2e-05   11.9   0.0   1.3   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_100857602  -            1.3e-05   12.8   0.0   1.5e-05   12.6   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_100865221  -            1.2e-05   11.9   0.0   1.2e-05   11.9   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp6QLF_W
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp6QLF_W 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:20 2017
+# Date:            Sat Oct  7 22:41:47 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -299,11 +267,11 @@ AMO                  PF02461.15 Ga0073928_100412552  -            0.00016    9.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmplbfGMj
+# Query file:      /tmp/tmp43bRaI
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmplbfGMj 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp43bRaI 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:20 2017
+# Date:            Sat Oct  7 22:41:59 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -315,11 +283,58 @@ Monooxygenase_B      PF04744.11 Ga0073928_100333524  -            1.2e-46  146.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpxrvo3W
+# Query file:      /tmp/tmpkRNhek
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpxrvo3W 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpkRNhek 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:20 2017
+# Date:            Sat Oct  7 22:41:59 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_100473173  -            1.6e-05   11.5   0.1   1.8e-05   11.3   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_100491951  -            1.8e-05   11.3   0.0   2.8e-05   10.7   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpEmCT3p
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEmCT3p 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:59 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_100639861  -            9.1e-07   15.6   0.7   1.4e-06   15.0   0.7   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_100681562  -            1.6e-06   14.8   0.0   2.6e-06   14.1   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpUFSRWf
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpUFSRWf 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:59 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_100794841  -              9e-06   13.3   0.1     1e-05   13.1   0.1   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_100839133  -            8.2e-06   12.5   0.0   1.2e-05   11.9   0.0   1.3   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_100857602  -            1.3e-05   12.8   0.0   1.5e-05   12.6   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_100865221  -            1.2e-05   11.9   0.0   1.2e-05   11.9   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpIAquu8
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIAquu8 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:41:59 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -332,26 +347,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_100617812  -            6.8e-06   12.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpYiwiB2
+# Query file:      /tmp/tmp3SLSJp
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpYiwiB2 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp3SLSJp 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:21 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_100473173  -            1.6e-05   11.5   0.1   1.8e-05   11.3   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_100491951  -            1.8e-05   11.3   0.0   2.8e-05   10.7   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpSBP8v6
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpSBP8v6 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:21 2017
+# Date:            Sat Oct  7 22:41:59 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -361,11 +361,11 @@ AmoC                 PF04896.11 Ga0073928_100513673  -            1.2e-06   15.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpTTr7Wt
+# Query file:      /tmp/tmp6QGldQ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTTr7Wt 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp6QGldQ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:21 2017
+# Date:            Sat Oct  7 22:42:00 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -374,29 +374,11 @@ AmoC                 PF04896.11 Ga0073928_100513673  -            1.2e-06   15.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpR1nngy
+# Query file:      /tmp/tmpchpXeJ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpR1nngy 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpchpXeJ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:21 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_101474281  -            3.9e-53  168.2   0.0   4.3e-53  168.1   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_101485401  -            6.4e-14   40.0   6.0   7.5e-14   39.7   6.0   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
-AmoC                 PF04896.11 Ga0073928_101485402  -              2e-53  168.8  16.3   2.6e-53  168.5  16.3   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_101539461  -              2e-05   11.2   0.0   2.8e-05   10.7   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_101573441  -              4e-05   10.2   2.7   3.5e-05   10.4   1.9   1.3   1   1   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp2Mqhg1
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp2Mqhg1 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:00 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -408,11 +390,11 @@ AMO                  PF02461.15 Ga0073928_101231825  -            1.8e-23   71.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp7oBcCR
+# Query file:      /tmp/tmp3SchQ9
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp7oBcCR 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp3SchQ9 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:11 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -427,11 +409,11 @@ AmoC                 PF04896.11 Ga0073928_101337315  -            0.00015    8.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpHmW0Wa
+# Query file:      /tmp/tmpS5nD4w
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpHmW0Wa 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpS5nD4w 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:11 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -443,42 +425,29 @@ Monooxygenase_B      PF04744.11 Ga0073928_101017102  -            2.3e-05   11.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmps6Gy7W
+# Query file:      /tmp/tmpwmAXvk
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmps6Gy7W 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpwmAXvk 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:11 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_101596943  -            7.7e-06   13.0   0.1     1e-05   12.6   0.1   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_101667075  -            1.2e-29   90.9   0.1   1.4e-29   90.7   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_101474281  -            3.9e-53  168.2   0.0   4.3e-53  168.1   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_101485401  -            6.4e-14   40.0   6.0   7.5e-14   39.7   6.0   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
+AmoC                 PF04896.11 Ga0073928_101485402  -              2e-53  168.8  16.3   2.6e-53  168.5  16.3   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_101539461  -              2e-05   11.2   0.0   2.8e-05   10.7   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_101573441  -              4e-05   10.2   2.7   3.5e-05   10.4   1.9   1.3   1   1   0   1   1   1   1 Monooxygenase subunit B protein
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpZ7FCIW
+# Query file:      /tmp/tmpsGcz78
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpZ7FCIW 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpsGcz78 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_101436702  -           2.9e-127  412.2   0.0  3.2e-127  412.1   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_101436703  -            2.2e-20   60.5   0.1   2.6e-20   60.2   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_101436704  -            1.7e-37  117.1   3.7   1.8e-37  117.0   3.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpQjyRi6
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQjyRi6 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:12 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -490,11 +459,11 @@ AMO                  PF02461.15 Ga0073928_101126213  -            5.9e-36  112.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpHl_FTg
+# Query file:      /tmp/tmpvFxEWG
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpHl_FTg 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpvFxEWG 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:12 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -503,11 +472,42 @@ AMO                  PF02461.15 Ga0073928_101126213  -            5.9e-36  112.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmptEN8NX
+# Query file:      /tmp/tmpicrGJQ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptEN8NX 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpicrGJQ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:34 2017
+# Date:            Sat Oct  7 22:42:12 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_101596943  -            7.7e-06   13.0   0.1     1e-05   12.6   0.1   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_101667075  -            1.2e-29   90.9   0.1   1.4e-29   90.7   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpZSheLn
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpZSheLn 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:12 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_101436702  -           2.9e-127  412.2   0.0  3.2e-127  412.1   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_101436703  -            2.2e-20   60.5   0.1   2.6e-20   60.2   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_101436704  -            1.7e-37  117.1   3.7   1.8e-37  117.0   3.7   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpXGTlx0
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpXGTlx0 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:12 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -519,25 +519,27 @@ AmoC                 PF04896.11 Ga0073928_101753171  -            1.9e-07   18.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp48QAXH
+# Query file:      /tmp/tmpEvxjAd
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp48QAXH 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEvxjAd 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
+# Date:            Sat Oct  7 22:42:23 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_102069293  -            1.9e-05   12.2   0.1   2.8e-05   11.7   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
+AmoC                 PF04896.11 Ga0073928_101946762  -            7.6e-48  150.5   5.3     9e-48  150.3   5.3   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_102017131  -            3.8e-95  305.5  11.5   4.6e-95  305.2  11.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AMO                  PF02461.15 Ga0073928_102017132  -            9.8e-73  232.5  17.5   1.1e-72  232.3  17.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpttfgV2
+# Query file:      /tmp/tmpQuWMK8
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpttfgV2 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQuWMK8 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -550,43 +552,25 @@ Monooxygenase_B      PF04744.11 Ga0073928_101882211  -            6.6e-63  200.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpuZyyTW
+# Query file:      /tmp/tmpZnTGNA
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpuZyyTW 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpZnTGNA 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_101946762  -            7.6e-48  150.5   5.3     9e-48  150.3   5.3   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_102017131  -            3.8e-95  305.5  11.5   4.6e-95  305.2  11.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AMO                  PF02461.15 Ga0073928_102017132  -            9.8e-73  232.5  17.5   1.1e-72  232.3  17.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+AMO                  PF02461.15 Ga0073928_102069293  -            1.9e-05   12.2   0.1   2.8e-05   11.7   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpiRqdKo
+# Query file:      /tmp/tmppiaqNe
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpiRqdKo 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmppiaqNe 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_102477652  -              2e-05   11.2   0.0   2.5e-05   10.9   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_102502701  -            4.2e-05   10.1   3.1   3.2e-05   10.5   1.6   1.6   1   1   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_102546781  -            1.9e-05   12.2   0.0   2.8e-05   11.7   0.0   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpayPonV
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpayPonV 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -600,11 +584,27 @@ AMO                  PF02461.15 Ga0073928_102442691  -            4.9e-06   14.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpcTWevE
+# Query file:      /tmp/tmptmdnmh
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpcTWevE 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptmdnmh 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:46 2017
+# Date:            Sat Oct  7 22:42:24 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_102477652  -              2e-05   11.2   0.0   2.5e-05   10.9   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_102502701  -            4.2e-05   10.1   3.1   3.2e-05   10.5   1.6   1.6   1   1   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_102546781  -            1.9e-05   12.2   0.0   2.8e-05   11.7   0.0   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp1BUKEx
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp1BUKEx 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -617,11 +617,11 @@ AmoC                 PF04896.11 Ga0073928_102321622  -            3.8e-94  302.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpAwJkFA
+# Query file:      /tmp/tmpQ38adw
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpAwJkFA 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQ38adw 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:47 2017
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -633,11 +633,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_102738981  -            1.3e-52  166.5
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpZlA9fm
+# Query file:      /tmp/tmpsmYxQo
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpZlA9fm 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpsmYxQo 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:47 2017
+# Date:            Sat Oct  7 22:42:24 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -651,11 +651,58 @@ AmoC                 PF04896.11 Ga0073928_102993972  -            8.4e-46  143.9
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpc_1gVz
+# Query file:      /tmp/tmpmG3LIw
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpc_1gVz 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpmG3LIw 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:58 2017
+# Date:            Sat Oct  7 22:42:36 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_103078211  -            5.5e-09   23.8   0.2   5.6e-09   23.8   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_103078212  -           2.9e-135  438.6   0.0  3.3e-135  438.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_103174921  -            8.9e-06   12.4   0.4   8.7e-06   12.4   0.4   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpVS0GO5
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpVS0GO5 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:36 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_102816321  -           6.9e-153  496.6   0.0  7.8e-153  496.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_102887011  -            1.3e-05   11.8   1.2   1.5e-05   11.6   1.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpbv1xVX
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpbv1xVX 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:36 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_103662622  -            0.00025    7.6   3.2    0.0001    8.8   0.3   1.7   1   1   1   2   2   2   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_103769472  -            2.5e-05   11.3   0.1   2.9e-05   11.1   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_103769881  -            6.6e-06   13.2   0.0   6.6e-06   13.2   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpWZtzip
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpWZtzip 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:36 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -671,58 +718,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_103343751  -              2e-06   14.5
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpcNGG08
+# Query file:      /tmp/tmpci1K6m
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpcNGG08 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpci1K6m 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:58 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_103078211  -            5.5e-09   23.8   0.2   5.6e-09   23.8   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_103078212  -           2.9e-135  438.6   0.0  3.3e-135  438.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_103174921  -            8.9e-06   12.4   0.4   8.7e-06   12.4   0.4   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpMIWUk7
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpMIWUk7 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:58 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_102816321  -           6.9e-153  496.6   0.0  7.8e-153  496.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_102887011  -            1.3e-05   11.8   1.2   1.5e-05   11.6   1.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpP8aQV2
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpP8aQV2 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:58 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_103662622  -            0.00025    7.6   3.2    0.0001    8.8   0.3   1.7   1   1   1   2   2   2   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_103769472  -            2.5e-05   11.3   0.1   2.9e-05   11.1   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_103769881  -            6.6e-06   13.2   0.0   6.6e-06   13.2   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpX94Lw9
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpX94Lw9 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:59 2017
+# Date:            Sat Oct  7 22:42:36 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -735,26 +735,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_103579671  -            5.5e-06   13.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpyc8Uyg
+# Query file:      /tmp/tmpbxf0Iy
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpyc8Uyg 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpbxf0Iy 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:59 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_103427171  -            3.2e-84  270.5   0.0   3.6e-84  270.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_103427172  -            4.9e-24   72.6   0.6   5.4e-24   72.4   0.6   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpnoxKFM
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpnoxKFM 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:59 2017
+# Date:            Sat Oct  7 22:42:37 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -767,11 +752,26 @@ AMO                  PF02461.15 Ga0073928_103969381  -            1.9e-66  211.9
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp2EfyD6
+# Query file:      /tmp/tmp7Zyd92
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp2EfyD6 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp7Zyd92 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:23:59 2017
+# Date:            Sat Oct  7 22:42:37 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_103427171  -            3.2e-84  270.5   0.0   3.6e-84  270.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_103427172  -            4.9e-24   72.6   0.6   5.4e-24   72.4   0.6   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpzZYmkN
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpzZYmkN 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:37 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -783,28 +783,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_104058522  -            0.00022    7.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpqlo1bv
+# Query file:      /tmp/tmpozW76m
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpqlo1bv 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpozW76m 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_104529162  -            5.3e-31   95.4   5.8   6.1e-31   95.2   5.8   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_104564001  -            4.5e-06   13.3   0.0   6.2e-06   12.9   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_104567051  -            0.00021    7.8   8.3    0.0001    8.8   2.6   2.1   1   1   1   2   2   2   2 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_104622741  -            5.8e-57  180.9   7.5   6.8e-57  180.6   7.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpFi1tKM
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpFi1tKM 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:48 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -818,11 +801,28 @@ Monooxygenase_B      PF04744.11 Ga0073928_104237222  -            8.4e-06   12.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp1_uZ7E
+# Query file:      /tmp/tmpISHhVb
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp1_uZ7E 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpISHhVb 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:48 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_104529162  -            5.3e-31   95.4   5.8   6.1e-31   95.2   5.8   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_104564001  -            4.5e-06   13.3   0.0   6.2e-06   12.9   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_104567051  -            0.00021    7.8   8.3    0.0001    8.8   2.6   2.1   1   1   1   2   2   2   2 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_104622741  -            5.8e-57  180.9   7.5   6.8e-57  180.6   7.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp3Gc_og
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp3Gc_og 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:48 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -833,11 +833,11 @@ AMO                  PF02461.15 Ga0073928_104725871  -            1.5e-07   19.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp03ejFO
+# Query file:      /tmp/tmpC5CGvB
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp03ejFO 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpC5CGvB 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:49 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -847,11 +847,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_104900671  -            7.1e-06   12.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpuoVYtz
+# Query file:      /tmp/tmpQIKo0s
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpuoVYtz 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQIKo0s 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:49 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -862,11 +862,24 @@ AMO                  PF02461.15 Ga0073928_105315381  -            4.6e-06   14.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpak2LzE
+# Query file:      /tmp/tmpE4dAO6
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpak2LzE 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpE4dAO6 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:49 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp8LkNh6
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp8LkNh6 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:42:49 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -876,24 +889,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_105194942  -            7.1e-05    9.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpbnVBfy
+# Query file:      /tmp/tmpeyUAbT
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpbnVBfy 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpeyUAbT 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpUJyuRO
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpUJyuRO 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:11 2017
+# Date:            Sat Oct  7 22:42:49 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -907,11 +907,41 @@ AMO                  PF02461.15 Ga0073928_106899882  -            2.3e-05   12.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp2u9p6Q
+# Query file:      /tmp/tmpqoc9CO
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp2u9p6Q 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpqoc9CO 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
+# Date:            Sat Oct  7 22:43:01 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_106181132  -            7.2e-08   19.2   0.5   6.2e-07   16.2   0.1   1.9   1   1   1   2   2   2   2 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_106268921  -             0.0023    4.9  13.0    0.0013    5.7   9.7   2.2   1   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpz5RXFa
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpz5RXFa 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:01 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_106388411  -              2e-48  152.4  11.1   2.3e-48  152.3  11.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_106516831  -            0.00072    6.1   8.0   0.00015    8.3   2.5   2.0   1   1   1   2   2   2   2 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp89Akhj
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp89Akhj 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:01 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -925,11 +955,43 @@ AmoC                 PF04896.11 Ga0073928_105946631  -            2.6e-06   14.5
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpujT7qW
+# Query file:      /tmp/tmp8h5sgW
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpujT7qW 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp8h5sgW 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
+# Date:            Sat Oct  7 22:43:01 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_105628121  -              3e-08   20.9   0.3   4.5e-08   20.3   0.3   1.3   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_105670311  -              2e-05   11.2   0.0   2.5e-05   10.9   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_105678741  -           1.8e-105  340.5   0.0  1.9e-105  340.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_105701731  -              3e-07   17.6   6.1     3e-07   17.6   6.1   2.3   1   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_105765401  -           4.9e-106  342.3   0.1  5.4e-106  342.2   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpRPUZFR
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpRPUZFR 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:01 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_106009642  -            1.1e-05   12.0   0.0   1.8e-05   11.3   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpbH8eBX
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpbH8eBX 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:01 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -945,73 +1007,11 @@ AMO                  PF02461.15 Ga0073928_106706082  -            3.4e-05   11.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpAxFJtz
+# Query file:      /tmp/tmpynZX9N
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpAxFJtz 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpynZX9N 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_106181132  -            7.2e-08   19.2   0.5   6.2e-07   16.2   0.1   1.9   1   1   1   2   2   2   2 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_106268921  -             0.0023    4.9  13.0    0.0013    5.7   9.7   2.2   1   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpBsObtg
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpBsObtg 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_106009642  -            1.1e-05   12.0   0.0   1.8e-05   11.3   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpEj6Fa_
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEj6Fa_ 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_106388411  -              2e-48  152.4  11.1   2.3e-48  152.3  11.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_106516831  -            0.00072    6.1   8.0   0.00015    8.3   2.5   2.0   1   1   1   2   2   2   2 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpD9faI1
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpD9faI1 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_105628121  -              3e-08   20.9   0.3   4.5e-08   20.3   0.3   1.3   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_105670311  -              2e-05   11.2   0.0   2.5e-05   10.9   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_105678741  -           1.8e-105  340.5   0.0  1.9e-105  340.4   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_105701731  -              3e-07   17.6   6.1     3e-07   17.6   6.1   2.3   1   1   0   2   2   2   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_105765401  -           4.9e-106  342.3   0.1  5.4e-106  342.2   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpt12Dwn
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpt12Dwn 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:23 2017
+# Date:            Sat Oct  7 22:43:01 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1020,27 +1020,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_105765401  -           4.9e-106  342.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpc1b_rg
+# Query file:      /tmp/tmpTWnfa7
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpc1b_rg 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTWnfa7 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:24 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_107975081  -            3.8e-05   10.3   0.8     5e-05    9.9   0.8   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_108149611  -            6.4e-25   75.3   0.1   7.7e-25   75.1   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_108149612  -              3e-34  106.5   3.9   3.4e-34  106.3   3.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpkxtbFu
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpkxtbFu 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
+# Date:            Sat Oct  7 22:43:02 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1052,11 +1036,26 @@ AMO                  PF02461.15 Ga0073928_107710961  -              3e-05   11.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpZ__osK
+# Query file:      /tmp/tmpISz2fu
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpZ__osK 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpISz2fu 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
+# Date:            Sat Oct  7 22:43:13 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_106954462  -            2.5e-66  211.1  13.0   2.9e-66  210.9  13.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_106995851  -            4.5e-05   10.5   6.1   3.1e-05   11.0   4.2   1.8   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp9ftpzt
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp9ftpzt 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:13 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1071,11 +1070,27 @@ AmoC                 PF04896.11 Ga0073928_108344241  -              5e-06   13.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpOgPXvz
+# Query file:      /tmp/tmpKFKUBC
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpOgPXvz 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpKFKUBC 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
+# Date:            Sat Oct  7 22:43:13 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_107975081  -            3.8e-05   10.3   0.8     5e-05    9.9   0.8   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_108149611  -            6.4e-25   75.3   0.1   7.7e-25   75.1   0.1   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_108149612  -              3e-34  106.5   3.9   3.4e-34  106.3   3.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpIUHPmx
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIUHPmx 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:13 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1088,26 +1103,11 @@ AmoC                 PF04896.11 Ga0073928_107469821  -            3.7e-06   14.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp8e0ulA
+# Query file:      /tmp/tmp83pKlM
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp8e0ulA 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp83pKlM 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_106954462  -            2.5e-66  211.1  13.0   2.9e-66  210.9  13.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_106995851  -            4.5e-05   10.5   6.1   3.1e-05   11.0   4.2   1.8   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpOTCcSU
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpOTCcSU 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
+# Date:            Sat Oct  7 22:43:13 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1119,11 +1119,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_107277213  -            7.4e-06   12.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpw3OLCE
+# Query file:      /tmp/tmpTYLIhc
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpw3OLCE 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTYLIhc 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:36 2017
+# Date:            Sat Oct  7 22:43:13 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1133,11 +1133,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_107942062  -            1.4e-05   11.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmprJjGDG
+# Query file:      /tmp/tmpA9vRZC
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmprJjGDG 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpA9vRZC 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:37 2017
+# Date:            Sat Oct  7 22:43:13 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1146,27 +1146,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_107942062  -            1.4e-05   11.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpRpTmen
+# Query file:      /tmp/tmpEyTzL2
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpRpTmen 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEyTzL2 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:37 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_108583541  -            1.3e-28   87.6   0.2   1.6e-28   87.3   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_108714581  -            2.6e-25   76.8   0.0     3e-25   76.6   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_108738211  -            5.3e-91  292.9   3.2   5.9e-91  292.7   3.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp9QT36e
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp9QT36e 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:48 2017
+# Date:            Sat Oct  7 22:43:14 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1178,11 +1162,27 @@ Monooxygenase_B      PF04744.11 Ga0073928_109565041  -            4.8e-06   13.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpIbyrLH
+# Query file:      /tmp/tmp4cQ8_l
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIbyrLH 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp4cQ8_l 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:48 2017
+# Date:            Sat Oct  7 22:43:26 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_108583541  -            1.3e-28   87.6   0.2   1.6e-28   87.3   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_108714581  -            2.6e-25   76.8   0.0     3e-25   76.6   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_108738211  -            5.3e-91  292.9   3.2   5.9e-91  292.7   3.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpko566J
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpko566J 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1194,56 +1194,11 @@ AMO                  PF02461.15 Ga0073928_108940061  -              2e-05   12.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpJrGCJG
+# Query file:      /tmp/tmpUNN69P
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpJrGCJG 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpUNN69P 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:48 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_109715911  -            8.2e-77  246.2   0.3   9.1e-77  246.0   0.3   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_109865091  -            2.8e-05   10.7   0.0   2.9e-05   10.7   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp5t0oFe
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp5t0oFe 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:48 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_109299321  -            1.9e-19   57.5   0.0   2.1e-19   57.4   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_109354572  -            1.2e-41  130.4   0.1   1.4e-41  130.2   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpHwq7Oc
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpHwq7Oc 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:48 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_109111802  -            3.1e-05   10.6   0.3   4.7e-05   10.0   0.3   1.3   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_109200052  -            2.4e-05   10.9   0.0     3e-05   10.6   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpvFmdix
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpvFmdix 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:49 2017
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1257,11 +1212,26 @@ AMO                  PF02461.15 Ga0073928_110303842  -            3.7e-05   11.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp2uB7vh
+# Query file:      /tmp/tmpTg87YZ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp2uB7vh 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTg87YZ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:49 2017
+# Date:            Sat Oct  7 22:43:26 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_109715911  -            8.2e-77  246.2   0.3   9.1e-77  246.0   0.3   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_109865091  -            2.8e-05   10.7   0.0   2.9e-05   10.7   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpND5lSr
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpND5lSr 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1272,61 +1242,41 @@ Monooxygenase_B      PF04744.11 Ga0073928_109999051  -            2.9e-39  122.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpBALTiw
+# Query file:      /tmp/tmpUo1YRJ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpBALTiw 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpUo1YRJ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:24:49 2017
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_110622341  -            2.9e-06   14.4   0.2   3.7e-06   14.0   0.2   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AmoC                 PF04896.11 Ga0073928_110622591  -            1.7e-16   47.9   0.2   1.9e-16   47.8   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_110639291  -            4.3e-57  181.2   1.5   4.9e-57  181.1   1.5   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_109299321  -            1.9e-19   57.5   0.0   2.1e-19   57.4   0.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_109354572  -            1.2e-41  130.4   0.1   1.4e-41  130.2   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpnxp6Cu
+# Query file:      /tmp/tmpzK1XPc
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpnxp6Cu 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpzK1XPc 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:00 2017
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_110391011  -            1.8e-05   11.3   0.0   1.8e-05   11.3   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_110426031  -            5.4e-06   13.5   3.6   7.1e-06   13.1   3.6   1.3   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_110436801  -            2.4e-05   11.0   0.0   2.6e-05   10.8   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_109111802  -            3.1e-05   10.6   0.3   4.7e-05   10.0   0.3   1.3   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_109200052  -            2.4e-05   10.9   0.0     3e-05   10.6   0.0   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpxajaus
+# Query file:      /tmp/tmppkeVsj
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpxajaus 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmppkeVsj 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:00 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_110782461  -            3.7e-24   72.8   0.0   4.1e-24   72.7   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_110899671  -            0.00027    7.5   5.0   0.00034    7.1   5.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_110903522  -              1e-05   12.2   0.1   1.1e-05   12.1   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_110903542  -              1e-05   12.2   0.1   1.1e-05   12.1   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_110969511  -            4.4e-07   16.6   0.1   7.5e-07   15.9   0.1   1.4   2   0   0   2   2   2   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpEoh0mu
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEoh0mu 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:00 2017
+# Date:            Sat Oct  7 22:43:26 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1341,11 +1291,29 @@ AmoC                 PF04896.11 Ga0073928_111182062  -            1.2e-18   55.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpjVmnT0
+# Query file:      /tmp/tmpMew1C1
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpjVmnT0 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpMew1C1 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:00 2017
+# Date:            Sat Oct  7 22:43:38 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_110782461  -            3.7e-24   72.8   0.0   4.1e-24   72.7   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_110899671  -            0.00027    7.5   5.0   0.00034    7.1   5.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_110903522  -              1e-05   12.2   0.1   1.1e-05   12.1   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_110903542  -              1e-05   12.2   0.1   1.1e-05   12.1   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_110969511  -            4.4e-07   16.6   0.1   7.5e-07   15.9   0.1   1.4   2   0   0   2   2   2   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpM15Q9Z
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpM15Q9Z 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:38 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1355,28 +1323,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_111271791  -            3.4e-05   10.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp4TJLGn
+# Query file:      /tmp/tmptfkisB
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp4TJLGn 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptfkisB 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:01 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_111513231  -            1.6e-31   97.1   0.0   1.8e-31   96.9   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AMO                  PF02461.15 Ga0073928_111544151  -            3.4e-05   11.4   0.9   3.9e-05   11.2   0.1   1.4   2   0   0   2   2   2   1 Ammonia monooxygenase
-AmoC                 PF04896.11 Ga0073928_111581661  -            1.7e-06   15.1   0.1   1.8e-06   15.1   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_111609021  -            6.5e-25   75.3   0.2   7.2e-25   75.2   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp8Zm5Pv
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp8Zm5Pv 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:01 2017
+# Date:            Sat Oct  7 22:43:38 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1390,11 +1341,60 @@ AmoC                 PF04896.11 Ga0073928_111885871  -            1.1e-05   12.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpTSWjw6
+# Query file:      /tmp/tmpIYRPLV
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTSWjw6 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIYRPLV 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:01 2017
+# Date:            Sat Oct  7 22:43:38 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_110622341  -            2.9e-06   14.4   0.2   3.7e-06   14.0   0.2   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AmoC                 PF04896.11 Ga0073928_110622591  -            1.7e-16   47.9   0.2   1.9e-16   47.8   0.2   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_110639291  -            4.3e-57  181.2   1.5   4.9e-57  181.1   1.5   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpPBWSuN
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpPBWSuN 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:38 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_111513231  -            1.6e-31   97.1   0.0   1.8e-31   96.9   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AMO                  PF02461.15 Ga0073928_111544151  -            3.4e-05   11.4   0.9   3.9e-05   11.2   0.1   1.4   2   0   0   2   2   2   1 Ammonia monooxygenase
+AmoC                 PF04896.11 Ga0073928_111581661  -            1.7e-06   15.1   0.1   1.8e-06   15.1   0.1   1.2   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_111609021  -            6.5e-25   75.3   0.2   7.2e-25   75.2   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpHQ4AS0
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpHQ4AS0 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:38 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_110391011  -            1.8e-05   11.3   0.0   1.8e-05   11.3   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_110426031  -            5.4e-06   13.5   3.6   7.1e-06   13.1   3.6   1.3   1   1   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_110436801  -            2.4e-05   11.0   0.0   2.6e-05   10.8   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpvRVdjv
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpvRVdjv 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:38 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1403,11 +1403,11 @@ AmoC                 PF04896.11 Ga0073928_111885871  -            1.1e-05   12.4
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp9sjuOZ
+# Query file:      /tmp/tmpXwqBlM
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp9sjuOZ 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpXwqBlM 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:01 2017
+# Date:            Sat Oct  7 22:43:39 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1420,41 +1420,11 @@ AMO                  PF02461.15 Ga0073928_112300211  -            6.1e-27   82.6
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpQ82xbU
+# Query file:      /tmp/tmpUFEKeX
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQ82xbU 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpUFEKeX 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:12 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_112403391  -            6.1e-43  134.5  12.4   6.9e-43  134.3  12.4   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-AMO                  PF02461.15 Ga0073928_112485891  -            1.6e-72  231.8   6.9   1.8e-72  231.6   6.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpzptaSu
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpzptaSu 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:12 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_113531871  -              3e-05   11.6   0.0    0.0028    5.1   0.0   2.1   1   1   1   2   2   2   2 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_113602311  -            4.2e-06   13.4   0.0   4.8e-06   13.2   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpMvKio3
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpMvKio3 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:13 2017
+# Date:            Sat Oct  7 22:43:51 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1466,11 +1436,41 @@ AMO                  PF02461.15 Ga0073928_112789402  -            2.4e-42  133.0
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpK9b7Kk
+# Query file:      /tmp/tmpasmicw
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpK9b7Kk 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpasmicw 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:13 2017
+# Date:            Sat Oct  7 22:43:51 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_112403391  -            6.1e-43  134.5  12.4   6.9e-43  134.3  12.4   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+AMO                  PF02461.15 Ga0073928_112485891  -            1.6e-72  231.8   6.9   1.8e-72  231.6   6.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpP947Y9
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpP947Y9 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:51 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_113531871  -              3e-05   11.6   0.0    0.0028    5.1   0.0   2.1   1   1   1   2   2   2   2 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_113602311  -            4.2e-06   13.4   0.0   4.8e-06   13.2   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpGc4uPM
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpGc4uPM 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:43:51 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1482,11 +1482,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_113237311  -            2.6e-05   10.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpIotIzd
+# Query file:      /tmp/tmpN6kTOx
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIotIzd 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpN6kTOx 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:13 2017
+# Date:            Sat Oct  7 22:43:51 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1497,11 +1497,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_113001651  -            3.3e-06   13.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpO9x8Xh
+# Query file:      /tmp/tmpaUOOVK
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpO9x8Xh 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpaUOOVK 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:13 2017
+# Date:            Sat Oct  7 22:43:51 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1510,11 +1510,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_113001651  -            3.3e-06   13.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmptmfIeB
+# Query file:      /tmp/tmpjVpNu4
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptmfIeB 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpjVpNu4 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:13 2017
+# Date:            Sat Oct  7 22:43:51 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1523,75 +1523,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_113001651  -            3.3e-06   13.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp6AUtDI
+# Query file:      /tmp/tmp0NHeik
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp6AUtDI 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp0NHeik 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:14 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_114054581  -            3.1e-05   11.5   0.0   3.4e-05   11.4   0.0   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
-AmoC                 PF04896.11 Ga0073928_114153782  -            4.4e-12   33.4   2.5   4.7e-12   33.3   2.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpIc4Yi2
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIc4Yi2 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:24 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_114305831  -            5.1e-37  115.6   4.5   5.5e-37  115.5   4.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_114442181  -            7.1e-37  114.7   0.3   7.7e-37  114.6   0.3   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_114468731  -            1.1e-05   12.0   0.0   1.5e-05   11.6   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpNJTn4E
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpNJTn4E 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:24 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-Monooxygenase_B      PF04744.11 Ga0073928_114754671  -            2.7e-05   10.8   0.0   3.2e-05   10.5   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-Monooxygenase_B      PF04744.11 Ga0073928_114773952  -            7.5e-06   12.6   0.2   7.5e-06   12.6   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_114927821  -            2.6e-06   14.5   0.1   2.7e-06   14.5   0.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpz_hz3d
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpz_hz3d 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:25 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_114538972  -              2e-12   34.6   1.9   2.1e-12   34.5   1.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_114560541  -            8.1e-35  107.9   0.0   8.9e-35  107.8   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-AmoC                 PF04896.11 Ga0073928_114574392  -            1.1e-05   12.5   0.2   1.3e-05   12.2   0.2   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_114582381  -            0.00075    6.0   5.1   0.00024    7.6   0.9   1.8   2   0   0   2   2   2   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmp7PG6UL
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp7PG6UL 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:25 2017
+# Date:            Sat Oct  7 22:43:52 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1604,11 +1540,27 @@ Monooxygenase_B      PF04744.11 Ga0073928_115187121  -            4.5e-06   13.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmp8P19ky
+# Query file:      /tmp/tmpBIvIOF
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp8P19ky 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpBIvIOF 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:25 2017
+# Date:            Sat Oct  7 22:44:04 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Monooxygenase_B      PF04744.11 Ga0073928_114754671  -            2.7e-05   10.8   0.0   3.2e-05   10.5   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_114773952  -            7.5e-06   12.6   0.2   7.5e-06   12.6   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_114927821  -            2.6e-06   14.5   0.1   2.7e-06   14.5   0.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpeIFcWs
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpeIFcWs 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:04 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1619,11 +1571,59 @@ AmoC                 PF04896.11 Ga0073928_115688871  -            2.5e-65  207.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpU0CddF
+# Query file:      /tmp/tmpOuEKn7
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpU0CddF 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpOuEKn7 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:25 2017
+# Date:            Sat Oct  7 22:44:04 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_114305831  -            5.1e-37  115.6   4.5   5.5e-37  115.5   4.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_114442181  -            7.1e-37  114.7   0.3   7.7e-37  114.6   0.3   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+Monooxygenase_B      PF04744.11 Ga0073928_114468731  -            1.1e-05   12.0   0.0   1.5e-05   11.6   0.0   1.1   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpGSqqt2
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpGSqqt2 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:04 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_114054581  -            3.1e-05   11.5   0.0   3.4e-05   11.4   0.0   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase
+AmoC                 PF04896.11 Ga0073928_114153782  -            4.4e-12   33.4   2.5   4.7e-12   33.3   2.5   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp7J0zZJ
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp7J0zZJ 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:04 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AmoC                 PF04896.11 Ga0073928_114538972  -              2e-12   34.6   1.9   2.1e-12   34.5   1.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_114560541  -            8.1e-35  107.9   0.0   8.9e-35  107.8   0.0   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_114574392  -            1.1e-05   12.5   0.2   1.3e-05   12.2   0.2   1.1   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_114582381  -            0.00075    6.0   5.1   0.00024    7.6   0.9   1.8   2   0   0   2   2   2   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpDKKoP4
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpDKKoP4 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:04 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1632,11 +1632,11 @@ AmoC                 PF04896.11 Ga0073928_115688871  -            2.5e-65  207.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpJynWdP
+# Query file:      /tmp/tmpcU7xlr
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpJynWdP 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpcU7xlr 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:26 2017
+# Date:            Sat Oct  7 22:44:04 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1651,11 +1651,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_115892431  -            4.6e-37  115.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpcK4sIv
+# Query file:      /tmp/tmpNRpW8i
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpcK4sIv 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpNRpW8i 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:26 2017
+# Date:            Sat Oct  7 22:44:05 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1670,11 +1670,26 @@ AmoC                 PF04896.11 Ga0073928_116402161  -            3.8e-65  207.2
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpfDWorK
+# Query file:      /tmp/tmpBdkRqz
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpfDWorK 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpBdkRqz 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:36 2017
+# Date:            Sat Oct  7 22:44:16 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_117183271  -            1.2e-05   12.9   0.2   1.7e-05   12.4   0.2   1.3   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_117416521  -            1.3e-06   15.1   0.2   1.4e-06   15.0   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpvowrTi
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpvowrTi 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1688,11 +1703,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_116905361  -            1.4e-05   11.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpxcoGmW
+# Query file:      /tmp/tmpWou7Ii
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpxcoGmW 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpWou7Ii 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1704,11 +1719,11 @@ AmoC                 PF04896.11 Ga0073928_116592841  -            1.9e-06   14.9
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpdKekl8
+# Query file:      /tmp/tmpvMjvAo
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpdKekl8 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpvMjvAo 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1719,11 +1734,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_116064692  -            2.8e-38  119.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpOhcFok
+# Query file:      /tmp/tmp1eoyrq
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpOhcFok 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp1eoyrq 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1736,26 +1751,11 @@ AMO                  PF02461.15 Ga0073928_117175271  -            3.9e-06   14.5
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpLPZUtZ
+# Query file:      /tmp/tmpEHQRAQ
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpLPZUtZ 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpEHQRAQ 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_117183271  -            1.2e-05   12.9   0.2   1.7e-05   12.4   0.2   1.3   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_117416521  -            1.3e-06   15.1   0.2   1.4e-06   15.0   0.2   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpq6gvI8
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpq6gvI8 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1765,11 +1765,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_117483711  -            7.4e-55  173.9
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpqpJjnS
+# Query file:      /tmp/tmpIhvYuX
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpqpJjnS 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpIhvYuX 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:16 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1784,11 +1784,11 @@ Monooxygenase_B      PF04744.11 Ga0073928_117936991  -            9.4e-06   12.3
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpNkVOff
+# Query file:      /tmp/tmpaDlkFC
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpNkVOff 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpaDlkFC 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:37 2017
+# Date:            Sat Oct  7 22:44:17 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1818,11 +1818,11 @@ AmoC                 PF04896.11 Ga0073928_119661171  -            1.3e-30   94.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmps2yelx
+# Query file:      /tmp/tmp4cjgdo
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmps2yelx 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp4cjgdo 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:44 2017
+# Date:            Sat Oct  7 22:44:23 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1848,17 +1848,17 @@ AmoC                 PF04896.11 Ga0073928_119442701  -            1.9e-19   57.6
 Monooxygenase_B      PF04744.11 Ga0073928_119443151  -            1.3e-37  117.1   0.1   1.5e-37  116.9 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
 #------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AMO                  PF02461.15 Ga0073928_118230311  -            5.1e-62  197.4   3.1   5.6e-62  197.3   3.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
-Monooxygenase_B      PF04744.11 Ga0073928_118417751  -              1e-05   12.2   0.5   1.1e-05   12.0   0.5   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+AmoC                 PF04896.11 Ga0073928_118145461  -            1.5e-59  188.9   5.9   1.7e-59  188.7   5.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
+Monooxygenase_B      PF04744.11 Ga0073928_118187271  -            1.9e-05   11.2   0.2   2.3e-05   11.0   0.2   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
 #
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpVGZtpk
+# Query file:      /tmp/tmp54Ne5L
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpVGZtpk 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp54Ne5L 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:47 2017
+# Date:            Sat Oct  7 22:44:27 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1871,11 +1871,26 @@ Monooxygenase_B      PF04744.11 Ga0073928_119165471  -            1.4e-05   11.7
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpw6lWs0
+# Query file:      /tmp/tmp0H6gSD
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpw6lWs0 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmp0H6gSD 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:47 2017
+# Date:            Sat Oct  7 22:44:27 2017
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMO                  PF02461.15 Ga0073928_118230311  -            5.1e-62  197.4   3.1   5.6e-62  197.3   3.1   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
+Monooxygenase_B      PF04744.11 Ga0073928_118417751  -              1e-05   12.2   0.5   1.1e-05   12.0   0.5   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmpf_0PNp
+# Target file:     ../amoCAB
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpf_0PNp 
+# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
+# Date:            Sat Oct  7 22:44:27 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1889,11 +1904,11 @@ AMO                  PF02461.15 Ga0073928_118700522  -            1.3e-31   97.9
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpQ8k639
+# Query file:      /tmp/tmptQVRmh
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpQ8k639 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptQVRmh 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:47 2017
+# Date:            Sat Oct  7 22:44:27 2017
 # [ok]
   0.1   1.0   1   0   0   1   1   1   1 Monooxygenase subunit B protein
 AMO                  PF02461.15 Ga0073928_119456791  -            6.3e-29   89.1   1.0   7.3e-29   88.9   1.0   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase
@@ -1906,11 +1921,11 @@ AmoC                 PF04896.11 Ga0073928_119483431  -            8.5e-35  107.8
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpixrecp
+# Query file:      /tmp/tmptaIH4n
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpixrecp 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmptaIH4n 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:48 2017
+# Date:            Sat Oct  7 22:44:27 2017
 # [ok]
 #                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
 # target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
@@ -1921,24 +1936,9 @@ AmoC                 PF04896.11 Ga0073928_118828711  -            7.1e-06   13.1
 # Program:         hmmscan
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /tmp/tmpmLvSIC
+# Query file:      /tmp/tmpsd5M8a
 # Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpmLvSIC 
+# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpsd5M8a 
 # Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:48 2017
-# [ok]
-#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
-# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
-#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
-AmoC                 PF04896.11 Ga0073928_118145461  -            1.5e-59  188.9   5.9   1.7e-59  188.7   5.9   1.0   1   0   0   1   1   1   1 Ammonia monooxygenase/methane monooxygenase, subunit C
-Monooxygenase_B      PF04744.11 Ga0073928_118187271  -            1.9e-05   11.2   0.2   2.3e-05   11.0   0.2   1.2   1   0   0   1   1   1   1 Monooxygenase subunit B protein
-#
-# Program:         hmmscan
-# Version:         3.1b2 (February 2015)
-# Pipeline mode:   SCAN
-# Query file:      /tmp/tmpTlPu46
-# Target file:     ../amoCAB
-# Option settings: hmmscan -o /dev/null --tblout /dev/fd/63 --noali --cpu 1 ../amoCAB /tmp/tmpTlPu46 
-# Current dir:     /media/andriy/5E8D984477029FC2/scripts/operon_finder/gen_func_file_parsing
-# Date:            Fri Sep 29 21:25:48 2017
+# Date:            Sat Oct  7 22:44:27 2017
 # [ok]
