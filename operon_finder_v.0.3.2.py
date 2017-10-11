@@ -450,8 +450,14 @@ def main(argv):
             operons.append(frame.copy())
 
     #ops=list(operons)
-        
-    final_frame, output_list=operonParser(operons, basename)
+    
+    #print(frame)
+    
+    if operons != []:
+        final_frame, output_list=operonParser(operons, basename)
+    else:
+        print("\nNo operons detected in the Input File ["+input_file+"]")
+        sys.exit()
     
     
     #check if dot is in the filename
