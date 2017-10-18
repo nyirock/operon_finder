@@ -47,7 +47,7 @@ def batch_iterator(iterator, batch_size):
         batch = []
         while len(batch) < batch_size:
             try:
-                entry = iterator.next()
+                entry = next(iterator)
             except StopIteration:
                 entry = None
             if entry is None:
@@ -68,7 +68,7 @@ def joinDescriptionColumns(descr_columns):
     return merged.strip()
 
 def usage():
-    print "\nThis is the usage function\n"
+    print("\nThis is the usage function\n")
 #    print 'Usage: '+sys.argv[0]+' -i <input_file> [-o <output>] [-l <minimum length>]'
 #    print 'Example: '+sys.argv[0]+' -i input.fasta -o output.fasta -l 100'
 
@@ -127,7 +127,14 @@ def operonCount2(lst, pos, max_distance, min_operon_size):
     state=False
     position=0
     
-    for i in xrange(len(lst)):
+    #catching range/xrange error in python3
+    
+    try:
+        zrange = xrange
+    except NameError:
+        zrange = range
+    
+    for i in zrange(len(lst)):
         if lst[i]:
             newState=True
             #position=pos[i]
@@ -307,7 +314,7 @@ def main(argv):
         
         label = i
         #f = tempfile.NamedTemporaryFile(delete=False)#exists on closing
-        f = tempfile.NamedTemporaryFile()#deleted after f.close()
+        f = tempfile.NamedTemporaryFile(mode='w+t')#deleted after f.close()
         files.append((label,f))
         #f.seek(0)
         count = SeqIO.write(batch, f, "fasta")
@@ -360,7 +367,7 @@ def main(argv):
     #splitting output with reges, since hmmscan sometimes truncates spaces
     
 
-    chunks=re.split(r"#\s+--- full sequence ---- --- best 1 domain ---- --- domain number estimation ----", output)
+    chunks=re.split(r"#\s+--- full sequence ---- --- best 1 domain ---- --- domain number estimation ----", output.decode())
     
     #sorting here might be useles
     total=[]
