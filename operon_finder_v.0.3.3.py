@@ -25,9 +25,7 @@ __author__ = "Andriy Sheremet"
 #Helper functions definitions
 
 #input_file = '76969.assembled.faa'
-model='models/amoCAB'
-max_distance=3
-min_operon_size=2
+
 
 
 
@@ -105,7 +103,7 @@ def usage():
 
 
     
-def extractFeatures(ids, filename):
+def extractFeatures(ids, filename,md):
     features=[]
     pos=0
     for record in SeqIO.parse(filename,"fasta"):
@@ -126,10 +124,10 @@ def extractFeatures2(ids, filename):#putting in a seq object instead of string
 def is_operon(x):
     return x['diff1'] or x['diff2']
 
-def rel_coordinates(x):
-    global max_distance
+def rel_coordinates(x, md):
     
-    if ((x['diff1'] < max_distance) or (x['diff2']) <max_distance):
+    
+    if ((x['diff1'] < md) or (x['diff2']) <md):
         return min(x['diff1'],x['diff2'])
     else:
         return 0
@@ -167,26 +165,20 @@ def operonCount(lst):
 #this function splits adjacent operons, based on distance
 #for the operons of large size it will artificially break it into pieces
 
-def operonCount2(lst, pos, max_distance, min_operon_size):
+def operonCount2(lst, pos, md, min_operon_size):
     opCnt=0
     state=False
     position=0
     
-    #catching range/xrange error in python3
     
-    try:
-        zrange = xrange
-    except NameError:
-        zrange = range
-    
-    for i in zrange(len(lst)):
+    for i in range(len(lst)):
         if lst[i]:
             newState=True
             #position=pos[i]
             if (state==False) and (newState==True):
                 position=pos[i]
                 opCnt+=1
-            if (pos[i]>position+max_distance+min_operon_size+5):#!!! needs a fix so large operons won't be affected
+            if (pos[i]>position+md+min_operon_size+5):#!!! needs a fix so large operons won't be affected
                 opCnt+=1
     
             lst[i]=opCnt
@@ -305,10 +297,18 @@ def operonParser(op_lst, input_file, op_type=False, full_operons=False):
 def main(argv):
     
     #default constants
+    
+    model='models/amoCAB'
+    max_distance=3
+    min_operon_size=2# parameter needs more thorough work
+    chunk_size=30000
+    operon_type=['cab','abc']# use "!" symbol to exclude operons
+    output_name=''
+    
     input_file=''
-    global model, max_distance, min_operon_size
+    #global model, max_distance, min_operon_size
     try:                                
-        opts, args = getopt.getopt(argv, "i:m:h", ["input=","model=", "help"])
+        opts, args = getopt.getopt(argv, "i:o:s:t:m:h", ["input=","output=","size=","type=","model=","fragment_size=", "help"])
     except getopt.GetoptError:          
         usage()                         
         sys.exit(2)                     
@@ -318,7 +318,31 @@ def main(argv):
             sys.exit() 
 #        elif opt in ("--recover_after_failure"):
 #            recover_after_failure = True
-#            print "Recover after failure:", recover_after_failure  
+#            print "Recover after failure:", recover_after_failure
+        elif opt in ("-o", "--output"):
+            if arg:
+                output_name=arg.strip()
+        elif opt in ("-s", "--size"):
+            if arg:
+                try:
+                    min_operon_size=int(arg.strip())
+                except:
+                    print("ERROR: Please pass integer value to operon [--size] parameter")
+                    sys.exit(1)
+                    
+        elif opt in ('-t', '--type'):
+            if arg:
+                operon_type=arg.strip().split(',')
+                #print('Operon type:',operon_type) #debugging message
+                    
+        elif opt in ("--fragment_size"):
+            if arg:
+                try:
+                    chunk_size=abs(int(arg.strip()))
+                except:
+                    print("ERROR: Please pass integer value to operon [--fragmen_size] parameter")
+                    sys.exit(1)
+                    
 
         
                      
@@ -352,11 +376,11 @@ def main(argv):
         print("\nERROR: Could not parse Input File ["+input_file+"]")
         
     basename=os.path.basename(input_file)
-    bn_lst=basename.split(".")        
+            
 
 
 #    for i, batch in enumerate(batch_iterator(record_iter, 30000)): #keeps original ids
-    for i, batch in enumerate(batch_iterator3(record_iter, 30000)): #uses positional ids
+    for i, batch in enumerate(batch_iterator3(record_iter, chunk_size)): #uses positional ids
         
         label = i
         #f = tempfile.NamedTemporaryFile(delete=False)#exists on closing
@@ -493,7 +517,7 @@ def main(argv):
     
     df_scramb['is_operon']=df_scramb[['diff1', 'diff2']].apply(lambda x: x < max_distance).apply(is_operon, axis=1)
     
-    df_scramb['rel_coordinates']=df_scramb[['diff1', 'diff2']].apply(rel_coordinates, axis=1)
+    df_scramb['rel_coordinates']=df_scramb[['diff1', 'diff2']].apply(rel_coordinates, args=(max_distance, ), axis=1)# passing a parameter into apply
     
     #df_scramb['operon_count']=operonCount(df_scramb['is_operon'].tolist(), df_scramb['position'].tolist())
     df_scramb['operon_count']=operonCount2(df_scramb['is_operon'].tolist(), df_scramb['position'].tolist(), max_distance, min_operon_size)
@@ -512,34 +536,73 @@ def main(argv):
 
     #ops=list(operons)
     
+    #check if dot is in the filename
+    #if output_name is specified
+    if output_name:
+        bn_lst=[output_name]
+    #standard output file names if not specified
+    else:
+        bn_lst=basename.split(".")
+        bn_lst[0]="cab_"+bn_lst[0]
+    #splitting basename into a lists
+
+    if len(bn_lst)>1:
+        outfile1='.'.join(bn_lst[:-1])+".tsv"
+        outfile2='.'.join(bn_lst[:-1])+".fasta"
+        outfile3='.'.join(bn_lst[:-1])+".tab"
+    else:
+        outfile1='.'.join(bn_lst)+".tsv"
+        outfile2='.'.join(bn_lst)+".fasta"
+        outfile3='.'.join(bn_lst)+".tab"
+    
     #print(frame)
     
     if operons != []:
         final_frame, output_list=operonParser(operons, basename)
     else:
         print("\nNo operons detected in the Input File ["+input_file+"]")
-        sys.exit()
+        if 'all' not in operon_type:
+            sys.exit()
+
+            
+            
     
     
-    #check if dot is in the filename
-    #removing the last extension
-    if len(bn_lst)>1:
-        outfile1="cab_"+'.'.join(bn_lst[:-1])+".tsv"
-        outfile2="cab_"+'.'.join(bn_lst[:-1])+".fasta"
-    else:
-        outfile1="cab_"+'.'.join(bn_lst)+".tsv"
-        outfile2="cab_"+'.'.join(bn_lst)+".fasta"        
+
+    
+#    
+#    if len(bn_lst)>1:
+#        outfile1='.'.join(bn_lst[:-1])+".tsv"
+#        outfile2='.'.join(bn_lst[:-1])+".fasta"
+#        outfile3='.'.join(bn_lst[:-1])+".tab"
+#    else:
+#        outfile1='.'.join(bn_lst)+".tsv"
+#        outfile2='.'.join(bn_lst)+".fasta"
+#        outfile3='.'.join(bn_lst)+".tab"
     
     #outfile1 = ".tsv"
     #outfile2 = "out4.fasta"
-    final_frame.to_csv(outfile1, sep='\t', header=True)
+    try:
+        final_frame.to_csv(outfile1, sep='\t', header=True)
+    except:
+        print("ERROR: could not create output file ["+outfile1+"]")
     
     #if len(ids)==len(sequences):
     records=list()
     
-    with open(outfile2, "w") as output_handle:
-        SeqIO.write(output_list, output_handle, "fasta")
+    try:
+        with open(outfile2, "w") as output_handle:
+            SeqIO.write(output_list, output_handle, "fasta")
+    except:
+        print("ERROR: could not create output file ["+outfile2+"]")
         
+    if 'all' in operon_type:
+        df_scramb['seq']=df_scramb['seq'].apply(lambda x: str(x.seq)) #converting SeqIO object to string
+        df_scramb['query file']=input_file
+        try:
+            df_scramb.to_csv(outfile3, sep='\t')
+        except:
+            print("ERROR: could not create output file ["+outfile3+"]")
         
         
         
