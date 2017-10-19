@@ -17,6 +17,7 @@ import csv
 #from datetime import datetime
 import numpy as np
 import re
+from itertools import islice
 #from scipy import stats
 
 __author__ = "Andriy Sheremet"
@@ -57,6 +58,36 @@ def batch_iterator(iterator, batch_size):
         if batch:
             yield batch
             
+def batch_iterator3(iterator, batch_size):
+    """Returns lists of length batch_size.
+
+       a modified version of batch_iterator() which replaces original fasta id 
+       with the positional fasta id, and stores in a temporary file
+       count  starts with 1
+    """
+    entry = True  # Make sure we loop once
+    counter=0
+    while entry:
+        batch_names=[]
+        batch = []
+        while len(batch) < batch_size:
+            try:
+                #origianlly was iterator.next()
+                #changed for py3 compatibility
+                #needs python 2.6+
+                entry = next(iterator)
+            except StopIteration:
+                entry = None
+            if entry is None:
+                # End of file
+                break
+            counter+=1
+            #entry._id=entry.id
+            entry.id=str(counter)
+            batch.append(entry)
+            
+        if batch:
+            yield batch
             
 def joinDescriptionColumns(descr_columns):
     merged=''
@@ -102,6 +133,20 @@ def rel_coordinates(x):
         return min(x['diff1'],x['diff2'])
     else:
         return 0
+        
+    #extracting features by positions with no looping through the whole file
+def extractFeatures4(positions, generator):#putting in a seq object instead of string
+    #file_iter = SeqIO.parse(open(filename),"fasta")#m.rosea
+    offset=0
+    features=[]
+    #entries=list()
+    for i in range(len(positions)):
+        position=positions[i]-offset
+        offset=positions[i]
+        record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+        
+        features.append({'qid':record.id, 'position':positions[i], 'descr':record.description, 'seq':record})
+    return pd.DataFrame(features)
 
 #this function combines adjacent operons(fragments) into one    input_file = '../76969.assembled.faa'
 
@@ -310,7 +355,9 @@ def main(argv):
     bn_lst=basename.split(".")        
 
 
-    for i, batch in enumerate(batch_iterator(record_iter, 30000)):
+#    for i, batch in enumerate(batch_iterator(record_iter, 30000)): #keeps original ids
+#    for i, batch in enumerate(batch_iterator3(record_iter, 30000)): #uses positional ids
+    for i, batch in enumerate(batch_iterator3(record_iter, 1000)): #uses positional ids
         
         label = i
         #f = tempfile.NamedTemporaryFile(delete=False)#exists on closing
@@ -412,16 +459,24 @@ def main(argv):
     df_scramb.iloc[:,18]=df_scramb.iloc[:,18:].apply(joinDescriptionColumns, axis=1)#this part is also redundant
     df_scramb=df_scramb.iloc[:,:19]
     
+    #This block of code is redundant since we introduced positional iformation as fasta ids
+    #df_scramb.sort_index(level=1, inplace=True)#sort by label and then reset index
+    #df_scramb.reset_index(inplace=True)
     
-    df_scramb.sort_index(level=1, inplace=True)#sort by label and then reset index
+    
+    #processing positional fasta ids
+    df_scramb[2]=df_scramb[2].astype(int)
     df_scramb.reset_index(inplace=True)
+    df_scramb.sort_values(by=2, inplace=True)
     
     
     ##hmmscan output df is combined with seq. features extracted from input_file
     #entire SeqIO.seq object is placed into 'seq' column
     names=df_scramb[2].tolist()
-    df_scramb=df_scramb.merge(extractFeatures2(names, input_file), left_on=2, right_on='qid', suffixes=('',''))
-    df_scramb.sort_values('position', inplace=True)
+    file_iter = SeqIO.parse(open(input_file),"fasta")
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+    file_iter.close()
+    df_scramb.sort_values('position', inplace=True)#should be already sorted, unnecessary
     #df_scramb.head()
     
 
