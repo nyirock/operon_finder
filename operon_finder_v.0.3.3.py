@@ -213,7 +213,9 @@ def operonParser(op_lst, input_file, op_type=False, full_operons=False):
     
     
     output_lst=list()#list of seq elements for fasta exporting
+    out=pd.DataFrame()
     
+    #initializing output variables
     if op_lst == []:
         return 1
     if full_operons:
@@ -289,7 +291,8 @@ def operonParser(op_lst, input_file, op_type=False, full_operons=False):
                                   'C':c_seq,
                                   'A':a_seq,
                                   'B':b_seq}), ignore_index=True)
-            
+                                  
+          
             
     return out, output_lst  
     
@@ -528,7 +531,7 @@ def main(argv):
     
     #groupping by combined operon df into operons by count and placing them into a list for processing
     operons=list()
-    output=pd.DataFrame()
+    #output=pd.DataFrame()
     for count,frame in df_scramb.groupby('operon_count', sort=False):
         if count > 0:
 
@@ -557,12 +560,23 @@ def main(argv):
     
     #print(frame)
     
+   
     if operons != []:
         final_frame, output_list=operonParser(operons, basename)
     else:
+        final_frame=None
+        output_list=None
         print("\nNo operons detected in the Input File ["+input_file+"]")
+        #need to convert this block into a function
         if 'all' not in operon_type:
-            sys.exit()
+            df_scramb['seq']=df_scramb['seq'].apply(lambda x: str(x.seq)) #converting SeqIO object to string
+            df_scramb['query file']=input_file
+            try:
+                df_scramb.to_csv(outfile3, sep='\t')
+                sys.exit()
+            except:
+                print("ERROR: could not create output file ["+outfile3+"]")
+                sys.exit()
 
             
             
@@ -582,20 +596,32 @@ def main(argv):
     
     #outfile1 = ".tsv"
     #outfile2 = "out4.fasta"
-    try:
-        final_frame.to_csv(outfile1, sep='\t', header=True)
-    except:
-        print("ERROR: could not create output file ["+outfile1+"]")
+    
+    #if we got till here we should have some data in operons list
+    #it might be not abc/cab though
+    if ((isinstance(final_frame, pd.DataFrame)) and (not final_frame.empty)):
+        try:
+            final_frame.to_csv(outfile1, sep='\t', header=True)
+        except:
+            print("ERROR: could not create output file ["+outfile1+"]")
+    elif operons !=[]: #create empty file to indicate some operons but not the ones of /cab,abc/
+        with open(outfile1, 'w'):
+            os.utime(outfile1, None)
     
     #if len(ids)==len(sequences):
     records=list()
     
-    try:
-        with open(outfile2, "w") as output_handle:
-            SeqIO.write(output_list, output_handle, "fasta")
-    except:
-        print("ERROR: could not create output file ["+outfile2+"]")
-        
+    if ((isinstance(output_list,list)) and (output_list !=[])):    
+        try:
+            with open(outfile2, "w") as output_handle:
+                SeqIO.write(output_list, output_handle, "fasta")
+        except:
+            print("ERROR: could not create output file ["+outfile2+"]")
+    
+    elif operons!=[]: #referring back to the groubpy statement: if there are operons, create empty file
+        with open(outfile2, 'w'):
+            os.utime(outfile2, None)        
+    
     if 'all' in operon_type:
         df_scramb['seq']=df_scramb['seq'].apply(lambda x: str(x.seq)) #converting SeqIO object to string
         df_scramb['query file']=input_file
@@ -611,6 +637,8 @@ def main(argv):
         #print(l)
         #print(f.name)
         f.close()
+
+    sys.exit()#exit normally
                                                     
 if __name__ == "__main__":
     main(sys.argv[1:]) 
