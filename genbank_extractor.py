@@ -2,12 +2,16 @@
 
 __author__ = "Andriy Sheremet"
 
-
+from Bio import SeqIO, SeqRecord, Seq
+from Bio.Alphabet import IUPAC
 import getopt
 import sys
-from Bio import  SeqIO
-from Bio.SeqUtils import GC
 import operator
+import itertools as it
+try:
+    from cStringIO import StringIO
+except:
+    from StringIO import StringIO
 
 
 pars ={}
@@ -47,6 +51,8 @@ def main(argv):
 def extract_features(params):
     #print("extract_features() is called")
     
+
+    
     if params["infile"]:
         try:
             #
@@ -63,22 +69,72 @@ def extract_features(params):
             print "\nERROR: Input file doesn't exist"
             usage()
             sys.exit(1)
+            
 
     
-    faa_filename = params['infile']+"_converted.faa"
+    OUT_FILE = params["infile"]+".faa"
     #print("hehe")
     #print(type(faa_filename))
-    output_handle = open(faa_filename, "w")
+    #output_handle = open(faa_filename, "w")
     #print("haha")
-    for seq_record in SeqIO.parse(handle, "genbank") :
-        print "Dealing with GenBank record %s" % seq_record.id
-        for seq_feature in seq_record.features :
-            if seq_feature.type=="CDS" :
-                assert len(seq_feature.qualifiers['translation'])==1
-                output_handle.write(">%s from %s\n%s\n" % (seq_feature.qualifiers['locus_tag'][0],seq_record.name,seq_feature.qualifiers['translation'][0]))
+    entries=list()
+    headers=list()
+    
+    
+    for key,group in it.groupby(handle,lambda line: line.startswith('LOCUS')):
+            if not key:
+                entries.append(list(group))
+            else:
+                headers.append(list(group))
                 
-    output_handle.close()
-    handle.close()
+    combined=map(lambda x1, x2: x1+x2, headers, entries)
+    
+
+    
+    
+    
+    seqs_for_fasta = []
+    
+    for item in combined:
+        try:
+            f=StringIO("".join(item))
+            record=SeqIO.read(f, 'genbank')
+        except:
+            print("Error: Could not parse genbank file")
+            
+            
+        try:
+            org = record.annotations['organism']
+        except:
+            org = ''
+
+            #acc = record.annotations['accessions'][0]  ## -not needed for now
+            #tax_line = ("; ").join(record.annotations['taxonomy'] ## -not needed for now, need to be tested if works
+    
+        for feature in record.features:
+            # Each Genbank record may have several features, the program
+            # will walk over all of them.
+            qualifier = feature.qualifiers
+        #     print("<<")
+        #     print(qualifier)
+        #     print(">>")
+            if 'product' in qualifier and 'translation' in qualifier:#we've got a protein
+                
+                id_ = qualifier['protein_id'][0]
+                desc = qualifier['product'][0]
+                sq = Seq.Seq(qualifier['translation'][0], IUPAC.protein)
+                if org:
+                    srec = SeqRecord.SeqRecord(sq, id=id_, description=desc+" ["+org+"]")
+                else:
+                    srec = SeqRecord.SeqRecord(sq, id=id_, description=desc)
+                seqs_for_fasta.append(srec)
+    
+    with open(OUT_FILE, 'w') as outf:
+        # Write all the sequences as a FASTA file.
+        SeqIO.write(seqs_for_fasta, outf, 'fasta')
+                
+
+
     
 if __name__ == "__main__":
     main(sys.argv[1:])

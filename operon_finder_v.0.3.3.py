@@ -475,7 +475,7 @@ def main(argv):
     #they need to be replaced!!!
     #check for an empty dataframe
     if df_scramb.empty:
-        print("\nNo hits found in the Input File ["+input_file+"]")
+        #print("\nNo hits found in the Input File ["+input_file+"]")
         sys.exit()
     df_scramb.sort_values(by='query file', inplace=True)#to fix performance warning
     df_scramb.set_index(['query file', 'label'], inplace=True)
@@ -572,11 +572,11 @@ def main(argv):
             df_scramb['seq']=df_scramb['seq'].apply(lambda x: str(x.seq)) #converting SeqIO object to string
             df_scramb['query file']=input_file
             try:
-                df_scramb.to_csv(outfile3, sep='\t')
-                sys.exit()
+                df_scramb.to_csv(outfile3[4:], sep='\t') # remove cab_ from filename
+                
             except:
-                print("ERROR: could not create output file ["+outfile3+"]")
-                sys.exit()
+                print("ERROR: could not create output file ["+outfile3[4:]+"]")
+            sys.exit()
 
             
             
