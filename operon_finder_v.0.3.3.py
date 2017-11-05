@@ -307,11 +307,12 @@ def main(argv):
     chunk_size=30000
     operon_type=['cab','abc']# use "!" symbol to exclude operons
     output_name=''
+    e_val = 1e-3
     
     input_file=''
     #global model, max_distance, min_operon_size
     try:                                
-        opts, args = getopt.getopt(argv, "i:o:s:t:m:h", ["input=","output=","size=","type=","model=","fragment_size=", "help"])
+        opts, args = getopt.getopt(argv, "i:o:e:s:t:m:h", ["input=","output=","e_value=","size=","type=","model=","fragment_size=", "help"])
     except getopt.GetoptError:          
         usage()                         
         sys.exit(2)                     
@@ -325,6 +326,13 @@ def main(argv):
         elif opt in ("-o", "--output"):
             if arg:
                 output_name=arg.strip()
+        elif opt in ("-e", "--e_value"):
+            try:
+                e_val = float(arg)
+            except:
+                print "\nERROR: Please enter numerical value as -e parameter (default: 1e-3)"
+                usage()
+                sys.exit(1)
         elif opt in ("-s", "--size"):
             if arg:
                 try:
@@ -426,7 +434,7 @@ def main(argv):
     #0.tab should be deleted if exists
     if os.path.exists("0.tab"):
         os.remove("0.tab")
-    cmd="parallel -j 8 hmmscan "+"-o /dev/null --noali --cpu 1"+" --tblout >(tee -a 0.tab)  " + model+" {} ::: "+fnames
+    cmd="parallel -j 8 hmmscan "+"-o /dev/null --noali --cpu 1 -E "+str(e_val)+" --tblout >(tee -a 0.tab)  " + model+" {} ::: "+fnames
     args = shlex.split(cmd)
     #os.system(cmd)
     p=subprocess.Popen(args,stdout=subprocess.PIPE)
