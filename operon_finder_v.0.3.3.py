@@ -193,7 +193,7 @@ def operonCount2(lst, pos, md, min_operon_size):
     
 def analyzeStructure(name_string, filter_operons={'CAB':0,'ABC':0}):#fix this for the extended version
     for key in filter_operons.keys():
-    
+        #taking care of reverse directions of the operons
         if key in name_string:
             filter_operons[key]=1
             return (key, 1)
