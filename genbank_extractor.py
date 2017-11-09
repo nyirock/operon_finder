@@ -100,7 +100,7 @@ def extract_features(params):
             f=StringIO("".join(item))
             record=SeqIO.read(f, 'genbank')
         except:
-            print("Error: Could not parse genbank file")
+            print("Error: Could not parse genbank file ["+params["infile"]+"]")
             
             
         try:
