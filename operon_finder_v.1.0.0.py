@@ -201,7 +201,10 @@ def operonParser(op_lst, input_file, op_type=False, full_operons=False, remove_t
             else:
                 operon=operon.reset_index(drop=True) #else clause is a bit unnecessary
             #print(type(operon))
-            cnt=operon['operon_count'].iloc[0] # taking the first element
+            try:
+                cnt=int(operon['operon_count'].iloc[0]) # converting to an int in a base case
+            except:
+                cnt=operon['operon_count'].iloc[0] # leaving as str for the multiple operons case
             inp_file=input_file
 
             #ot=operon_structure #inclues extended understanding of an operon
