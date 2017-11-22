@@ -379,7 +379,7 @@ def main(argv):
     try:
         #
         with open(input_file, "rU") as hand_ref:
-            pass
+
     except:
         print("\nERROR: Input File ["+input_file+"] doesn't exist")
         usage()
