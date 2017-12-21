@@ -141,7 +141,11 @@ def extractFeatures4(positions, generator):#putting in a seq object instead of s
     for i in range(len(positions)):
         position=positions[i]-offset
         offset=positions[i]
-        record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+        try:
+            record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+        except:
+            print('ERROR during feature extraction. Record #: '+str(position-1)+'. Position : '+str(positions[i]))
+
 
         features.append({'qid':record.id, 'position':positions[i], 'descr':record.description, 'seq':record})
     return pd.DataFrame(features)
@@ -379,7 +383,7 @@ def main(argv):
     try:
         #
         with open(input_file, "rU") as hand_ref:
-
+            pass
     except:
         print("\nERROR: Input File ["+input_file+"] doesn't exist")
         usage()
