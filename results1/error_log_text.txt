@@ -1,0 +1,390 @@
+./operon_finder_v.1.0.0.py -i 11/12902.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+  File "./operon_finder_v.1.0.0.py", line 405, in main
+  File "/usr/lib/python2.7/tempfile.py", line 462, in NamedTemporaryFile
+  File "/usr/lib/python2.7/tempfile.py", line 239, in _mkstemp_inner
+OSError: [Errno 24] Too many open files: '/tmp/tmpIMsF6D'
+./operon_finder_v.1.0.0.py -i 132416.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132423.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132429.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132447.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132454.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132964.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132966.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 132969.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 133135.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 133139.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 133154.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 133942.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 141237.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 848209
+./operon_finder_v.1.0.0.py -i 141238.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 912955
+./operon_finder_v.1.0.0.py -i 14367.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 51294
+./operon_finder_v.1.0.0.py -i 159693.assembled.faa --fragment_size 50000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 678, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 485, in main
+    query=re.findall('# Query file:\s*(.*)', chunk)[0]
+IndexError: list index out of range
+./operon_finder_v.1.0.0.py -i 159706.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 258094
+./operon_finder_v.1.0.0.py -i 35102.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 8074271
+./operon_finder_v.1.0.0.py -i 59497.assembled.faa --fragment_size 50000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 678, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 485, in main
+    query=re.findall('# Query file:\s*(.*)', chunk)[0]
+IndexError: list index out of range
+./operon_finder_v.1.0.0.py -i 59507.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1120855
+./operon_finder_v.1.0.0.py -i 59508.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1146107
+./operon_finder_v.1.0.0.py -i 64539.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 22280126
+./operon_finder_v.1.0.0.py -i 65451.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 4442062
+./operon_finder_v.1.0.0.py -i 65863.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 2187330
+./operon_finder_v.1.0.0.py -i 66440.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 929362
+./operon_finder_v.1.0.0.py -i 66722.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1733362
+./operon_finder_v.1.0.0.py -i 67491.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 4079549
+ERROR during feature extraction. Record #: -1. Position : 9880420
+./operon_finder_v.1.0.0.py -i 70960.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 439603
+./operon_finder_v.1.0.0.py -i 71388.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 51682
+./operon_finder_v.1.0.0.py -i 71389.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 16728
+./operon_finder_v.1.0.0.py -i 71390.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 435284
+ERROR during feature extraction. Record #: -1. Position : 659059
+ERROR during feature extraction. Record #: -1. Position : 1304201
+./operon_finder_v.1.0.0.py -i 71391.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 62381
+./operon_finder_v.1.0.0.py -i 71392.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 139062
+./operon_finder_v.1.0.0.py -i 71393.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 893883
+./operon_finder_v.1.0.0.py -i 71397.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1802371
+./operon_finder_v.1.0.0.py -i 71398.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1519718
+./operon_finder_v.1.0.0.py -i 71471.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 541595
+./operon_finder_v.1.0.0.py -i 71472.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1329535
+./operon_finder_v.1.0.0.py -i 71473.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 186993
+./operon_finder_v.1.0.0.py -i 71475.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 219919
+./operon_finder_v.1.0.0.py -i 71476.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 2710657
+./operon_finder_v.1.0.0.py -i 71518.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 759764
+./operon_finder_v.1.0.0.py -i 72749.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 872426
+./operon_finder_v.1.0.0.py -i 72777.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 229214
+./operon_finder_v.1.0.0.py -i 77181.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 5400277
+./operon_finder_v.1.0.0.py -i 79181.assembled.faa --fragment_size 50000 -e 0.1 -t all
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 80114.assembled.faa --fragment_size 50000 -e 0.1 -t all
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 83879.assembled.faa --fragment_size 50000 -e 0.1 -t all
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 87164.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 2675345
+./operon_finder_v.1.0.0.py -i 88966.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1156902
+./operon_finder_v.1.0.0.py -i 89681.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 488429
+./operon_finder_v.1.0.0.py -i 92544.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 3740122
+./operon_finder_v.1.0.0.py -i 92545.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 455862
+./operon_finder_v.1.0.0.py -i 92546.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 4784911
+./operon_finder_v.1.0.0.py -i 92587.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 8401293
+./operon_finder_v.1.0.0.py -i 92640.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1213928
+./operon_finder_v.1.0.0.py -i 94767.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1600462
+./operon_finder_v.1.0.0.py -i 96465.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1540978
+./operon_finder_v.1.0.0.py -i 96882.assembled.faa --fragment_size 50000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 330893
+./operon_finder_v.1.0.0.py -i 119742.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 119750.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 119758.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 119770.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 120486.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 120487.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 674, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 521, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 121102.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 283716
+./operon_finder_v.1.0.0.py -i 121103.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 512993
+./operon_finder_v.1.0.0.py -i 121104.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1182066
+./operon_finder_v.1.0.0.py -i 121116.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1371999
+./operon_finder_v.1.0.0.py -i 121299.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 1190160
+./operon_finder_v.1.0.0.py -i 121301.assembled.faa --fragment_size 30000 -t all -e 0.1
+ERROR during feature extraction. Record #: -1. Position : 703653
+./operon_finder_v.1.0.0.py -i 9/125967.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125968.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125969.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125970.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125972.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125973.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125974.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125975.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
+./operon_finder_v.1.0.0.py -i 9/125976.assembled.faa --fragment_size 30000 -t all -e 0.1
+Traceback (most recent call last):
+  File "./operon_finder_v.1.0.0.py", line 671, in <module>
+    main(sys.argv[1:]) 
+  File "./operon_finder_v.1.0.0.py", line 518, in main
+    df_scramb=df_scramb.merge(extractFeatures4(names, file_iter), left_on=2, how='inner', right_on='position', suffixes=('',''))
+  File "./operon_finder_v.1.0.0.py", line 144, in extractFeatures4
+    record=next(islice(generator, position-1,position))#0 start of a generator coupled with 1 start of fasta ids
+ValueError: Indices for islice() must be None or an integer: 0 <= x <= maxint.
